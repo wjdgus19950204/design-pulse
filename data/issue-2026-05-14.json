@@ -1,0 +1,77 @@
+{
+  "issue_date": "2026-05-14",
+  "cover": {
+    "category": "AI 도구",
+    "headline": "AI 디자인 툴의 등장, 브랜드 타이포그래피의 미래를 묻다",
+    "lead": "클로드 디자인 출시 이후, 디자이너의 역할은 '만드는 사람'에서 '판단하는 사람'으로 옮겨가고 있다.",
+    "summary": "앤트로픽이 자연어 프롬프트만으로 레이아웃과 타이포그래피를 생성하는 '클로드 디자인'을 공개했다. 누구나 몇 분 만에 목업을 뽑아낼 수 있는 시대, 브랜드 타이포그래피는 더 이상 제작 기술이 아니라 맥락과 판단의 영역이 된다. 기사는 AI가 폰트 선택, 자간, 위계 설정까지 자동화할 때 브랜드 고유의 목소리를 어떻게 지킬 것인지를 묻는다.",
+    "source_url": "https://www.fastcompany.com/91537044/what-new-ai-design-tools-mean-for-brand-typography-ai-brand-design-typography?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "source_name": "Fast Company Design",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/p-3-91537044-what-new-ai-design-tools-mean-for-brand-typography-ai-brand-design-typography_ea9fba.jpg"
+  },
+  "dispatches": [
+    {
+      "category": "UX/UI",
+      "headline": "벤모, 16년 만의 첫 전면 리디자인. 전화번호부 같던 UX 손본다",
+      "summary": "2009년 출시 이후 처음으로 벤모가 앱 전체를 뜯어고친다. 복잡한 피드 구조와 검색 방식을 단순화해 핵심 기능인 송금에 집중시키겠다는 전략이다. 핀테크 앱이 '소셜'을 내려놓고 실용으로 돌아가는 흐름을 보여준다.",
+      "source_url": "https://www.fastcompany.com/91539414/venmo-is-getting-its-first-big-redesign?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/p-1-91539414-vemo-redesign.jpg"
+    },
+    {
+      "category": "그래픽",
+      "headline": "스레드, 드디어 제 이름을 찾다. 인스타 그림자에서 벗어난 새 로고",
+      "summary": "출시 3년 만에 스레드가 시각적 독립을 선언했다. 기존 인스타그램 파생 느낌을 벗고, 플랫폼 고유의 정체성을 담은 새로운 로고와 컬러 시스템을 공개했다. 트위터 대안에서 독자 브랜드로의 전환점이다.",
+      "source_url": "https://www.fastcompany.com/91540784/threads-new-logo-instagram?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/p-1-91540784-threads-new-logo.jpg"
+    },
+    {
+      "category": "브랜딩",
+      "headline": "로드, 헤일리 비버가 말하는 브랜드 원칙. 미니멀 안에서 튀는 법",
+      "summary": "코첼라 가는 길에 등장한 분홍 데이지 빌보드. 로드 특유의 스위스 미니멀과는 전혀 다른 이 비주얼도 브랜드 전략의 일부였다. 헤일리 비버가 직접 밝힌 '일관성 속 변주'의 크리에이티브 규칙을 정리했다.",
+      "source_url": "https://www.fastcompany.com/91538962/rhode-brand-strategy?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/p-1-91538962-rhode-creative-direction.jpg"
+    },
+    {
+      "category": "타이포그래피",
+      "headline": "예티, 워드마크를 지웠다. 네 글자 없이도 통하는 브랜드의 조건",
+      "summary": "쿨러로 유명한 예티가 새 광고에서 로고 텍스트를 완전히 삭제했다. 위든+케네디 포틀랜드와 협업한 이번 캠페인은 '이름 없이도 알아보는 브랜드'를 실험한다. 워드마크 의존에서 벗어나려는 대담한 시도다.",
+      "source_url": "https://www.fastcompany.com/91539897/yeti-logo-four-letters?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/2-91539897-yeti-campaign.jpg"
+    },
+    {
+      "category": "제품",
+      "headline": "이케아 PS 컬렉션, 10년 만에 복귀. 스칸디나비아 디자인에 유머를 더하다",
+      "summary": "이케아가 실험적인 PS 컬렉션을 10년 만에 부활시켰다. 목공 클램프에서 영감받은 높이 조절 스툴, 변신하는 조명 등 35점이 공개됐다. 기능 중심 북유럽 디자인에 장난기를 불어넣은 시도로 평가받는다.",
+      "source_url": "https://www.fastcompany.com/91541083/ikeas-newest-furniture-makes-scandinavian-design-fun-again?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/p-01-91541083-ikea-ps-collection.jpg"
+    },
+    {
+      "category": "모션/3D",
+      "headline": "MAD 아키텍츠, 하이난 과학박물관 완공. 기둥 없는 나선형 은빛 껍데기",
+      "summary": "마 옌쑹이 이끄는 MAD 아키텍츠가 중국 하이커우에 과학박물관을 완성했다. 기둥 하나 없이 나선형으로 상승하는 구조가 전시실들을 연결하며, 금속 외피가 열대 햇살을 반사한다. 파라메트릭 건축의 최신 사례다.",
+      "source_url": "https://www.designboom.com/architecture/mad-hainan-science-museum-spiraling-metallic-structure-ma-yansong-haikou-china/",
+      "source_name": "Designboom",
+      "image": "https://www.designboom.com/wp-content/uploads/2026/05/MAD-hainan-science-museum-haikou-designboom-700-500x400-22b08q85r598.jpg"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-05-14",
+      "name": "NYCxDesign 2026",
+      "location": "뉴욕",
+      "kind": "페스티벌"
+    },
+    {
+      "date": "2026-05-14",
+      "name": "ICFF (International Contemporary Furniture Fair)",
+      "location": "뉴욕",
+      "kind": "박람회"
+    }
+  ],
+  "weekly_summary": "AI 디자인 툴이 업계의 새로운 변수로 떠올랐다. 앤트로픽의 클로드 디자인 출시를 계기로, 디자이너의 역할이 제작에서 판단으로 이동하고 있다는 논의가 활발하다. 한편 브랜드들은 저마다의 방식으로 정체성을 재정의하고 있다. 스레드는 인스타그램 그림자에서 벗어난 새 로고를 선보였고, 예티는 아예 워드마크를 지우는 실험에 나섰다. 이케아는 10년 만에 PS 컬렉션을 부활시키며 북유럽 디자인에 유머를 더했다. NYCxDesign이 시작되며 뉴욕은 일주일간 디자인의 중심이 된다."
+}

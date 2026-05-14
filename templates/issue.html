@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pulse · {{ issue.issue_date }}</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --bg-2: #f5f4f0;
+    --text: #1a1a1a;
+    --text-2: #5f5e5a;
+    --text-3: #888780;
+    --border: rgba(0,0,0,0.1);
+    --accent: #1a1a1a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1a1a1a;
+      --bg-2: #2c2c2a;
+      --text: #f5f4f0;
+      --text-2: #b4b2a9;
+      --text-3: #888780;
+      --border: rgba(255,255,255,0.12);
+      --accent: #f5f4f0;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Pretendard", "Apple SD Gothic Neo", sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .container { max-width: 880px; margin: 0 auto; padding: 24px; }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 0.5px solid var(--border);
+  }
+  .logo { display: flex; align-items: center; gap: 10px; font-weight: 500; }
+  .logo-mark {
+    width: 28px; height: 28px; background: var(--accent);
+    color: var(--bg); border-radius: 6px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 15px; font-weight: 500;
+  }
+  .nav-links { display: flex; gap: 24px; font-size: 13px; color: var(--text-2); }
+  .masthead {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    gap: 40px;
+    align-items: end;
+    padding: 48px 0 32px;
+    border-bottom: 0.5px solid var(--border);
+  }
+  .issue-meta {
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--text-2);
+    margin: 0 0 12px;
+  }
+  h1.masthead-title {
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 0.95;
+    letter-spacing: -0.035em;
+    margin: 0;
+  }
+  .masthead-sub {
+    font-size: 15px;
+    line-height: 1.7;
+    color: var(--text-2);
+    margin: 0;
+    max-width: 380px;
+    justify-self: end;
+  }
+  .hero-img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    margin: 32px 0 8px;
+    border-radius: 12px;
+    overflow: hidden;
+    background: var(--bg-2);
+  }
+  .hero-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .hero-caption {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    color: var(--text-3);
+    padding: 0 4px;
+    margin-bottom: 32px;
+  }
+  .cover-section {
+    padding: 24px 0 40px;
+    border-bottom: 0.5px solid var(--border);
+  }
+  .cover-tag {
+    display: flex; align-items: center; gap: 10px;
+    font-size: 11px; letter-spacing: 0.15em;
+    text-transform: uppercase; color: var(--text-2);
+    margin-bottom: 16px;
+  }
+  .cover-tag::before {
+    content: ""; display: inline-block;
+    width: 6px; height: 6px; border-radius: 50%; background: #378ADD;
+  }
+  h2.cover-headline {
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -0.025em;
+    margin: 0 0 16px;
+    max-width: 620px;
+  }
+  .cover-lead {
+    font-size: 17px;
+    line-height: 1.6;
+    color: var(--text-2);
+    margin: 0 0 24px;
+    max-width: 580px;
+  }
+  .cover-cta {
+    display: inline-block;
+    font-size: 13px;
+    padding: 8px 16px;
+    border-radius: 999px;
+    background: var(--accent);
+    color: var(--bg);
+    text-decoration: none;
+    margin-right: 12px;
+  }
+  .cover-source {
+    font-size: 12px;
+    color: var(--text-3);
+  }
+  .weekly-summary {
+    margin: 32px 0;
+    padding: 20px 24px;
+    background: var(--bg-2);
+    border-radius: 12px;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+  .weekly-summary p { margin: 0; }
+  .weekly-summary-label {
+    font-size: 11px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--text-3);
+    margin-bottom: 8px !important;
+  }
+  .dispatches-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 40px 0 24px;
+  }
+  .dispatches-header h2 {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0;
+    letter-spacing: -0.01em;
+  }
+  .dispatches-header span {
+    font-size: 12px;
+    color: var(--text-3);
+  }
+  .dispatches {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 24px;
+  }
+  .dispatch a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .dispatch-img {
+    aspect-ratio: 4/3;
+    background: var(--bg-2);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 14px;
+  }
+  .dispatch-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .dispatch-cat {
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--text-2);
+    margin: 0 0 6px;
+  }
+  .dispatch-headline {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.35;
+    letter-spacing: -0.005em;
+    margin: 0 0 8px;
+  }
+  .dispatch-summary {
+    font-size: 13px;
+    line-height: 1.65;
+    color: var(--text-2);
+    margin: 0 0 8px;
+  }
+  .dispatch-source {
+    font-size: 11px;
+    color: var(--text-3);
+  }
+  .calendar {
+    margin: 56px 0 32px;
+    padding: 28px;
+    background: var(--bg-2);
+    border-radius: 12px;
+  }
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 16px;
+  }
+  .calendar-header h2 { font-size: 22px; font-weight: 500; margin: 0; letter-spacing: -0.01em; }
+  .event {
+    display: grid;
+    grid-template-columns: 60px 1fr auto;
+    gap: 20px;
+    align-items: center;
+    padding: 14px 0;
+    border-top: 0.5px solid var(--border);
+  }
+  .event-date-num {
+    font-size: 24px; font-weight: 500; line-height: 1;
+    letter-spacing: -0.02em; margin: 0;
+  }
+  .event-date-month {
+    font-size: 10px; letter-spacing: 0.15em;
+    color: var(--text-3); margin: 2px 0 0;
+  }
+  .event-name { font-size: 14px; font-weight: 500; margin: 0; }
+  .event-loc { font-size: 12px; color: var(--text-2); margin: 2px 0 0; }
+  .event-kind {
+    font-size: 11px; letter-spacing: 0.1em;
+    color: var(--text-3);
+  }
+  footer {
+    margin-top: 56px;
+    padding-top: 24px;
+    border-top: 0.5px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: var(--text-3);
+  }
+  footer p { margin: 0; }
+  @media (max-width: 640px) {
+    .masthead { grid-template-columns: 1fr; gap: 16px; }
+    .masthead-sub { justify-self: start; }
+    h1.masthead-title { font-size: 40px; }
+    h2.cover-headline { font-size: 28px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <nav>
+    <div class="logo">
+      <span class="logo-mark">P</span>
+      <span>Pulse</span>
+    </div>
+    <div class="nav-links">
+      <span>최신호</span>
+      <span>지난 호</span>
+      <span>소개</span>
+    </div>
+  </nav>
+
+  <div class="masthead">
+    <div>
+      <p class="issue-meta">{{ issue.issue_date }}</p>
+      <h1 class="masthead-title">이번 주의<br>디자인.</h1>
+    </div>
+    <p class="masthead-sub">UX, 브랜딩, 타이포, 제품, 모션, 그래픽, AI 도구. 전 세계 디자인 현장에서 일어난 일들을 매주 월요일 아침에 정리해 보내드립니다.</p>
+  </div>
+
+  {% if issue.cover.image %}
+  <div class="hero-img">
+    <img src="{{ issue.cover.image }}" alt="" loading="lazy">
+  </div>
+  <div class="hero-caption">
+    <span>커버 스토리에서 자동으로 가져온 대표 이미지</span>
+    <span>출처: {{ issue.cover.source_name }}</span>
+  </div>
+  {% endif %}
+
+  <div class="cover-section">
+    <div class="cover-tag">커버 스토리 · {{ issue.cover.category }}</div>
+    <h2 class="cover-headline">{{ issue.cover.headline }}</h2>
+    <p class="cover-lead">{{ issue.cover.lead }}</p>
+    <p class="cover-lead" style="font-size: 14px;">{{ issue.cover.summary }}</p>
+    <a class="cover-cta" href="{{ issue.cover.source_url }}" target="_blank" rel="noopener">전문 읽기 →</a>
+    <span class="cover-source">출처: {{ issue.cover.source_name }}</span>
+  </div>
+
+  {% if issue.weekly_summary %}
+  <div class="weekly-summary">
+    <p class="weekly-summary-label">이번 주 한 단락</p>
+    <p>{{ issue.weekly_summary }}</p>
+  </div>
+  {% endif %}
+
+  <div class="dispatches-header">
+    <h2>디스패치</h2>
+    <span>{{ issue.dispatches|length }}개 분야 · 각 분야 톱 1편</span>
+  </div>
+
+  <div class="dispatches">
+    {% for d in issue.dispatches %}
+    <div class="dispatch">
+      <a href="{{ d.source_url }}" target="_blank" rel="noopener">
+        {% if d.image %}
+        <div class="dispatch-img"><img src="{{ d.image }}" alt="" loading="lazy"></div>
+        {% else %}
+        <div class="dispatch-img"></div>
+        {% endif %}
+        <p class="dispatch-cat">№ {{ "%02d"|format(loop.index) }} · {{ d.category }}</p>
+        <h3 class="dispatch-headline">{{ d.headline }}</h3>
+        <p class="dispatch-summary">{{ d.summary }}</p>
+        <p class="dispatch-source">{{ d.source_name }}</p>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+
+  {% if issue.events %}
+  <div class="calendar">
+    <div class="calendar-header">
+      <h2>이번 주 캘린더</h2>
+      <span style="font-size:12px;color:var(--text-3);">{{ issue.events|length }}개 이벤트</span>
+    </div>
+    {% for e in issue.events %}
+    <div class="event">
+      <div style="text-align:center;">
+        <p class="event-date-num">{{ e.date[8:10] }}</p>
+        <p class="event-date-month">{{ e.date[5:7] }}월</p>
+      </div>
+      <div>
+        <p class="event-name">{{ e.name }}</p>
+        <p class="event-loc">{{ e.location }}</p>
+      </div>
+      <span class="event-kind">{{ e.kind }}</span>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <footer>
+    <p>Pulse · {{ issue.issue_date }}<br>Claude가 매주 정리합니다</p>
+    <p>← 지난 호 보기</p>
+  </footer>
+
+</div>
+</body>
+</html>

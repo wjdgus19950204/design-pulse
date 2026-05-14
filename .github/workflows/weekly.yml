@@ -1,0 +1,47 @@
+name: Weekly Magazine
+
+on:
+  schedule:
+    # 매주 월요일 오전 10시 KST = 매주 월요일 새벽 1시 UTC
+    - cron: "0 1 * * 1"
+  workflow_dispatch:  # 수동 실행 버튼
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Collect RSS feeds
+        working-directory: scripts
+        run: python collect.py
+
+      - name: Curate with Claude
+        working-directory: scripts
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python curate.py
+
+      - name: Render HTML
+        working-directory: scripts
+        run: python render.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/ data/
+          git diff --staged --quiet || git commit -m "🗞️ 새 호 발행: $(date +'%Y-%m-%d')"
+          git push

@@ -1,0 +1,71 @@
+{
+  "issue_date": "2026-05-25",
+  "cover": {
+    "category": "AI 도구",
+    "headline": "피그마, 캔버스 위에 AI 에이전트를 올려놓다",
+    "lead": "디자인 툴의 다음 단계는 '같이 일하는 AI'다.",
+    "summary": "피그마가 디자인 환경에 네이티브로 통합된 AI 에이전트를 발표했다. 떠다니는 프롬프트 창이 아니라, 디지털 제도판 위에서 함께 움직이는 어시스턴트다. 피그마 측은 이를 '초고속 동료를 얻는 것'에 비유했다. 디자이너와 AI의 협업 방식이 어떻게 재정의될지 주목된다.",
+    "source_url": "https://www.fastcompany.com/91545179/figma-ai-agent-tool",
+    "source_name": "Fast Company",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/p-1-91545179-figma-agents.jpg"
+  },
+  "dispatches": [
+    {
+      "category": "UX/UI",
+      "headline": "웹 접근성, 1년 전보다 후퇴했다",
+      "summary": "WebAIM이 올해 웹 접근성 현황을 발표했다. 관심과 노력은 늘었지만, 실제 웹은 작년보다 덜 접근 가능해졌다는 결론이다. 선언과 실행 사이의 간극이 갈수록 벌어지고 있다.",
+      "source_url": "https://webaim.org/blog/tolerating-inaccessibility/",
+      "source_name": "WebAIM",
+      "image": null
+    },
+    {
+      "category": "그래픽",
+      "headline": "LA28 올림픽, 4개의 커스텀 폰트로 도시를 입힌다",
+      "summary": "2028 로스앤젤레스 올림픽의 타이포그래피 시스템이 공개됐다. 1984년의 단순한 구성과 달리, 이번엔 네 가지 맞춤 서체가 도시의 다양성과 역동성을 표현한다. 40년 만에 돌아온 LA 올림픽의 시각 언어가 본격적으로 모습을 드러냈다.",
+      "source_url": "https://www.fastcompany.com/91545559/the-la28-typography-is-made-of-four-custom-fonts",
+      "source_name": "Fast Company",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/p-2-91545559-la28-typography.jpg"
+    },
+    {
+      "category": "브랜딩",
+      "headline": "구글 워크스페이스 아이콘, 'AI 그라데이션' 세례를 받다",
+      "summary": "Gmail, 구글 독스, 드라이브 등 워크스페이스 앱 아이콘이 조용히 리디자인됐다. 수채화 필터를 씌운 듯 부드러워진 외관. AI 시대의 시각 코드가 구글의 일상 도구에도 스며들기 시작했다.",
+      "source_url": "https://www.fastcompany.com/91545582/google-workspace-icons-redesign",
+      "source_name": "Fast Company",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/p-1-91545582-google-new-icons.jpg"
+    },
+    {
+      "category": "타이포그래피",
+      "headline": "3D 프린터가 직접 쓴 책, G-code가 활자가 되다",
+      "summary": "스튜디오 Darius Ou와 Benson Chong이 완전히 3D 프린팅된 책 'Manual'을 선보였다. 기계 언어인 G-code가 그대로 양각 레터링이 되어 책 표면에 새겨졌다. 제작 과정 자체가 콘텐츠가 된, 인쇄와 타이포그래피의 경계 실험이다.",
+      "source_url": "https://www.designboom.com/design/3d-printed-book-manual-darius-ou-benson-chong/",
+      "source_name": "Designboom",
+      "image": "https://www.designboom.com/wp-content/uploads/2026/05/darius-ou-manual-3D-printed-book-designboom-700-500x400-22b08q85r716.jpg"
+    },
+    {
+      "category": "제품",
+      "headline": "바버 오스거비, 30년 역사에 마침표",
+      "summary": "영국 디자인계의 대표 듀오 에드워드 바버와 제이 오스거비가 런던 스튜디오 폐쇄를 발표했다. 앞으로는 각자 독립 스튜디오로 활동한다. 올림픽 성화대부터 가구까지, 한 시대를 정의한 파트너십이 새 장을 연다.",
+      "source_url": "https://www.dezeen.com/2026/05/20/barber-osgerby-close-studio-30-years/",
+      "source_name": "Dezeen",
+      "image": "http://static.dezeen.com/uploads/2019/05/barber-osgerby-portrait-sq-1-411x411.jpg"
+    },
+    {
+      "category": "모션/3D",
+      "headline": "자하 하디드의 첫 디지털 디자인, 미공개 영상 공개",
+      "summary": "건축가 다니엘 오클리가 자하 하디드 사무소 초기의 3D 컴퓨터 모델 영상을 공개했다. 유려한 곡선으로 세계를 사로잡기 전, 스튜디오가 디지털 디자인에 첫발을 디딘 순간들이 담겼다. 파라메트리시즘의 기원을 엿보는 귀중한 자료다.",
+      "source_url": "https://www.dezeen.com/2026/05/20/daniel-oakley-zaha-hadid-digital-design-videos/",
+      "source_name": "Dezeen",
+      "image": "http://static.dezeen.com/uploads/2026/05/daniel-oakley-zaha-hadid-digital-design-videos_dezeen_2364_sq_0-411x411.jpg"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-06-10",
+      "name": "3 Days of Design 2026",
+      "location": "코펜하겐",
+      "kind": "페스티벌"
+    }
+  ],
+  "weekly_summary": "피그마가 캔버스에 직접 붙는 AI 에이전트를 선보이며 디자인 도구의 다음 장을 열었다. 한편 바버 오스거비의 30년 파트너십 종료, 구글 아이콘의 AI 감성 리디자인, LA28 올림픽의 4종 커스텀 서체 공개 등 브랜드와 시각 언어의 변화가 두드러졌다. 자하 하디드 초기 디지털 작업의 미공개 영상이 공개되며 파라메트리시즘의 뿌리를 되짚는 시선도 있었다. WebAIM의 접근성 후퇴 보고는 기술 발전과 포용 사이의 괴리를 다시 환기시켰다."
+}

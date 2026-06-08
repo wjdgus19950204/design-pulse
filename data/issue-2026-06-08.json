@@ -1,0 +1,77 @@
+{
+  "issue_date": "2026-06-08",
+  "cover": {
+    "category": "브랜딩",
+    "headline": "오바마 대통령 기념 센터, 10년의 기다림 끝에 마침내 문을 열다",
+    "lead": "화강암 타워가 시카고 남쪽 하늘을 찌르며 전직 대통령 기념관의 새로운 문법을 썼다.",
+    "summary": "건축가 토드 윌리엄스와 빌리 치엔이 설계한 오바마 대통령 센터가 시카고 사우스사이드에서 공개됐다. 69미터 높이의 화강암 타워를 중심으로 인공 언덕이 둘러싼 형태로, 기존 대통령 기념관의 '차분한 시민적 미국주의'를 탈피해 기념비적 조형을 전면에 내세웠다. 8억 5천만 달러 규모의 이 프로젝트는 다음 주 일반 공개를 앞두고 있다.",
+    "source_url": "https://www.dezeen.com/2026/06/04/tod-williams-billie-tsien-obama-presidential-center/",
+    "source_name": "Dezeen",
+    "image": "http://static.dezeen.com/uploads/2026/06/williams-tsien-obama-presidential-center-chicago_dezeen_2364_sq-411x411.jpg"
+  },
+  "dispatches": [
+    {
+      "category": "UX/UI",
+      "headline": "디자이너가 AI를 마스터하는 법, 결국 '자기만의 방식'이다",
+      "summary": "AI 도구 숙달은 범용 매뉴얼이 아니라 개인의 사고방식에 맞춰 구부리는 과정이라는 분석. 완성이란 없고, 각자의 방식으로 끊임없이 갈라진다는 점을 짚었다.",
+      "source_url": "https://uxdesign.cc/designing-how-designers-master-ai-642d8751d945",
+      "source_name": "Sidebar",
+      "image": null
+    },
+    {
+      "category": "그래픽",
+      "headline": "영국 새 지폐, 고슴도치와 나비가 왕실 초상을 대신할까",
+      "summary": "영국 중앙은행이 차기 지폐 시리즈에 야생동물 일러스트레이션을 채택하겠다고 발표했다. 여우, 나비, 땅벌 등이 후보에 올랐으며, 지폐 디자인의 상징 체계가 근본적으로 바뀔 전망이다.",
+      "source_url": "https://www.fastcompany.com/91553932/uk-banknotes-wildlife-redesign?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-1-91553932-animal-banknotes-uk.jpg"
+    },
+    {
+      "category": "타이포그래피",
+      "headline": "Letterbox: 글자로 글자를 만드는 실험적 타이포그래피 도구",
+      "summary": "폰트를 고르고 색상을 지정하면 텍스트 자체가 문자 형태를 구성하는 웹 도구가 등장했다. 타이포그래피 실험과 시각적 놀이를 동시에 가능하게 한다.",
+      "source_url": "https://www.letterbox.sh/?text=Sidebar&font=Roboto+Mono&weight=700&style=italic&fill=13&cols=4&fc=upper&fm=lorem&bg=%23000000&fg=%23ededed",
+      "source_name": "Sidebar",
+      "image": null
+    },
+    {
+      "category": "제품",
+      "headline": "레고, 역대 최대 규모 세트로 가우디의 사그라다 파밀리아 재현",
+      "summary": "안토니 가우디 서거 100주년을 기념해 레고가 1만 2천 개 이상의 피스로 구성된 사그라다 파밀리아 세트를 공개했다. 레고 아키텍처 시리즈 역사상 가장 큰 규모다.",
+      "source_url": "https://www.dezeen.com/2026/06/04/lego-sagrada-familia-largest-set-antoni-gaudi/",
+      "source_name": "Dezeen",
+      "image": "http://static.dezeen.com/uploads/2026/06/lego-sagrada-familia-antoni-gaudi-largest-set-revealed-official_dezeen_2364_col_23-411x411.jpg"
+    },
+    {
+      "category": "모션/3D",
+      "headline": "BIG의 '이브 뮤직홀', 휘장처럼 흐르는 파사드가 크로아티아에서 올라간다",
+      "summary": "덴마크 건축사무소 BIG이 설계한 1만 제곱미터 규모의 공연장이 크로아티아 체핀에서 건설 중이다. 극장 커튼을 연상시키는 물결 형태의 외관이 특징으로, BIG의 첫 음악 공연장이 될 예정이다.",
+      "source_url": "https://www.dezeen.com/2026/06/05/eve-music-hall-big-under-construction-croatia/",
+      "source_name": "Dezeen",
+      "image": "http://static.dezeen.com/uploads/2026/06/eve-music-hall-big_dezeen_2364_col_sq-411x411.jpg"
+    },
+    {
+      "category": "AI 도구",
+      "headline": "수어를 음성으로, 음성을 텍스트로—웨어러블 디바이스 'Nura'가 리모와 디자인상 수상",
+      "summary": "수어를 실시간 음성으로 변환하고, 음성을 텍스트로 보여주는 팔찌형 기기 'Nura'가 2026 리모와 디자인 프라이즈를 수상했다. 청각장애인과 비장애인 간 소통의 장벽을 허무는 기술로 평가받았다.",
+      "source_url": "https://www.dezeen.com/2026/06/04/sign-language-bracelet-rimowa-design-prize-2026-video/",
+      "source_name": "Dezeen",
+      "image": "http://static.dezeen.com/uploads/2026/05/nura-samuel-nagel-paul-feiler-rimowa-design-prize-2026-sq-hero_dezeen_2364_col_0-411x411.jpg"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-06-05",
+      "name": "3 Days of Design 2026",
+      "location": "코펜하겐",
+      "kind": "페스티벌"
+    },
+    {
+      "date": "2026-06-07",
+      "name": "서펜타인 파빌리온 2026 개막",
+      "location": "런던",
+      "kind": "기타"
+    }
+  ],
+  "weekly_summary": "이번 주 디자인계의 시선은 시카고로 향했다. 10년간의 논쟁 끝에 오바마 대통령 센터가 완공되며, 기념관 건축의 새로운 기준점을 제시했다. 런던에서는 멕시코 스튜디오 란자 아틀리에가 설계한 뱀 형상의 벽돌 파빌리온이 서펜타인 갤러리를 열었고, 코펜하겐에서는 3 Days of Design이 북유럽 가구와 공예의 최신 흐름을 선보였다. 한편, 수어-음성 변환 팔찌 'Nura'의 리모와 디자인상 수상은 기술과 포용성의 접점을 다시 한번 환기시켰다."
+}

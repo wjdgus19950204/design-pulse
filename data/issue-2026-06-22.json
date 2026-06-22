@@ -1,0 +1,64 @@
+{
+  "issue_date": "2026-06-22",
+  "cover": {
+    "category": "AI 도구",
+    "headline": "어도비, 크리에이티브 클라우드 전 앱에 AI 어시스턴트 배치. 반복 작업의 종말 선언",
+    "lead": "포토샵, 프리미어, 일러스트레이터까지—어도비가 모든 창작 도구에 AI 에이전트를 심었다.",
+    "summary": "어도비가 포토샵, 프리미어, 일러스트레이터, 인디자인, 프레임아이오에 각각 맞춤형 AI 어시스턴트를 탑재한 퍼블릭 베타를 시작했다. 실제 창작보다는 반복적이고 지루한 작업을 완전 자동화하는 데 초점을 맞췄다. 동시에 파이어플라이 스튜디오도 재설계해, 하나의 인터페이스에서 생성·편집을 오가며 맥락을 유지할 수 있게 했다.",
+    "source_url": "https://www.theverge.com/tech/952099/adobe-ai-assistants-photoshop-premiere-illustrator-beta-launch",
+    "source_name": "The Verge",
+    "image": null
+  },
+  "dispatches": [
+    {
+      "category": "UX/UI",
+      "headline": "마이크로소프트, 햅틱 디자인 가이드라인 공개. '느낌'으로 말하는 인터페이스",
+      "summary": "마이크로소프트가 햅틱 피드백의 설계·구현 원칙을 정리한 문서를 내놨다. 명확성, 접근성, 직관성을 높이기 위해 진동을 언제, 어떻게 쓸지를 체계적으로 안내한다.",
+      "source_url": "https://microsoft.design/articles/haptics-design-and-implementation/",
+      "source_name": "Microsoft Design",
+      "image": null
+    },
+    {
+      "category": "그래픽",
+      "headline": "릴라 타바소, 썩어가는 식물을 무라노 유리로 빚다",
+      "summary": "밀라노 기반 작가 릴라 타바소가 이끼, 나무껍질, 버섯의 질감을 극사실주의 유리 조각으로 재현했다. 과학적 관찰과 장인 기술을 결합해 시간과 변화에 대한 묵상을 담았다.",
+      "source_url": "https://www.designboom.com/art/lilla-tabasso-melancholy-botanical-decay-hyperrealistic-murano-glass/",
+      "source_name": "Designboom",
+      "image": "https://www.designboom.com/wp-content/uploads/2026/06/lilla-tabasso-melancholy-botanical-decay-hyperrealistic-murano-glass-designboom-700-500x400-22b08q85r791.jpg"
+    },
+    {
+      "category": "브랜딩",
+      "headline": "샘스클럽, 새 로고 공개. 어포스트로피에 숨은 스캔 앤 고 아이콘",
+      "summary": "월마트 산하 창고형 매장 샘스클럽이 리브랜딩을 단행했다. 새 로고의 어포스트로피는 회원들이 앱으로 직접 상품을 스캔하는 '스캔 앤 고' 기능을 상징한다. 젊은 가족 중심의 차세대 고객층을 겨냥한 전략이다.",
+      "source_url": "https://www.fastcompany.com/91560295/sams-club-has-a-new-logo-look-closely-at-the-apostrophe",
+      "source_name": "Fast Company",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-1-91560295-sams-club-rebrand.jpg"
+    },
+    {
+      "category": "타이포그래피",
+      "headline": "자하 하디드 아키텍츠, 'ZHA'로 사명 변경. 약어가 된 거장의 이름",
+      "summary": "파트릭 슈마허가 자하 하디드 재단과의 법적 분쟁 종료 후 사무소 명칭을 'ZHA'로 축약한다고 발표했다. 슈마허는 이를 '자연스러운 브랜드 진화'라 표현했다.",
+      "source_url": "https://www.dezeen.com/2026/06/20/zaha-hadid-architects-rename-zha-this-week/",
+      "source_name": "Dezeen",
+      "image": "http://static.dezeen.com/uploads/2026/06/zha-zaha-hadid-architects-rebrand-patrik-schumacher_dezeen_2364_col_1-411x411.jpg"
+    },
+    {
+      "category": "제품",
+      "headline": "스냅, AR 스마트 안경 '스펙스' 공개. 헤드셋급 몰입을 일상 안경으로",
+      "summary": "스냅이 AWE 2026에서 증강현실 스마트 안경 '스펙스'를 선보였다. 혼합현실 헤드셋의 풍부한 디스플레이를 가볍고 일상적인 안경 형태에 담았다.",
+      "source_url": "https://www.dezeen.com/2026/06/18/snap-specs-smart-glasses-augmented-reality/",
+      "source_name": "Dezeen",
+      "image": "http://static.dezeen.com/uploads/2026/06/snap-specs-design_dezeen_1704_sq-411x411.jpg"
+    },
+    {
+      "category": "모션/3D",
+      "headline": "제임스 터렐, 세계 최대 뮤지엄 스카이스페이스를 덴마크 땅속에 열다",
+      "summary": "아로스 오르후스 미술관에 지름 40m 돔형 스카이스페이스 'As Seen Below'가 개관했다. 지하에서 덴마크 하늘을 올려다보는 구조로, 단색 빛이 공간 전체를 감싼다.",
+      "source_url": "https://www.dezeen.com/2026/06/19/james-turrell-as-seen-below-skyspace-aarhus-aros-museum/",
+      "source_name": "Dezeen",
+      "image": "http://static.dezeen.com/uploads/2026/06/james-turrell-as-seen-below-skyspace-aarhus-sq_dezeen_2364_col_2-411x411.jpg"
+    }
+  ],
+  "events": [],
+  "weekly_summary": "어도비가 크리에이티브 클라우드 전 앱에 AI 어시스턴트를 배치하며 창작 도구 시장의 게임 체인저를 자처했다. 한편 스냅은 일상형 AR 안경으로 웨어러블 경쟁에 뛰어들었고, 자하 하디드 아키텍츠는 법적 분쟁 후 'ZHA'로 새 출발을 알렸다. 샘스클럽의 리브랜딩부터 제임스 터렐의 거대 스카이스페이스까지—기술과 공간, 브랜드 정체성이 동시에 재편된 한 주였다."
+}

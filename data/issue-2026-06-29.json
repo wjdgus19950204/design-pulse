@@ -1,0 +1,64 @@
+{
+  "issue_date": "2026-06-29",
+  "cover": {
+    "category": "AI 도구",
+    "headline": "Figma, AI 시대의 생존 전략을 펼치다. Config 2026에서 코드 레이어와 모션 그래픽 도구 공개",
+    "lead": "디자인 툴의 왕좌를 지키기 위한 Figma의 가장 야심찬 베팅이 시작됐다.",
+    "summary": "Figma가 연례 컨퍼런스 Config 2026에서 대대적인 제품 업데이트를 발표했다. 코드 레이어, Figma Motion, 셰이더 도구, 제너레이티브 플러그인 등 풀스택 개발에 최적화된 캔버스로 탈바꿈하며, AI 에이전트 워크플로우 시대에 맞서는 포석을 깔았다. 디자인-코드 경계를 허무는 이번 행보가 업계 지형을 어떻게 바꿀지 주목된다.",
+    "source_url": "https://www.figma.com/blog/config-2026-recap/",
+    "source_name": "Figma Blog",
+    "image": null
+  },
+  "dispatches": [
+    {
+      "category": "UX/UI",
+      "headline": "디자인 시스템의 새 저자는 AI 에이전트다",
+      "summary": "에이전트가 생성하는 변경 속도가 인간의 리뷰 체계를 앞질렀다. 기존 승인 모델이 무너지면서 디자인 시스템 운영 방식 전반을 재고해야 할 시점이다.",
+      "source_url": "https://blog.murphytrueman.com/your-design-systems-newest-author-is-an-agent/",
+      "source_name": "Murphy Trueman Blog",
+      "image": null
+    },
+    {
+      "category": "그래픽",
+      "headline": "Joshua Vides, 다섯 대의 자동차를 흑백 선화로 뒤덮다",
+      "summary": "로스앤젤레스 피터슨 자동차 박물관에서 열린 'Flat Out' 전시에서 아티스트 Joshua Vides가 실제 자동차 다섯 대를 손으로 페인팅했다. 타이어 홈부터 그림자까지 모든 요소가 그의 시그니처 흑백 라인워크로 표현됐다.",
+      "source_url": "https://www.designboom.com/art/five-hand-painted-cars-joshua-vides-monochromatic-garage-petersen-automotive-museum-flat-out/",
+      "source_name": "Designboom",
+      "image": "https://www.designboom.com/wp-content/uploads/2026/06/joshua-vides-flat-out-exhibition-petersen-automotive-museum-los-angeles-designboom-700-500x400-22b08q85r187.jpg"
+    },
+    {
+      "category": "브랜딩",
+      "headline": "IKEA 캐나다, 생활용품으로 월드컵 참가국 국기를 재현하다",
+      "summary": "IKEA 캐나다가 2026 FIFA 월드컵을 맞아 'Bring the World to Life' 캠페인을 선보였다. 식기, 수건, 가구 등 익숙한 제품들을 배열해 참가국 국기를 형상화했다. 글로벌 스포츠 이벤트에 일상의 오브제로 응답한 위트 있는 작업이다.",
+      "source_url": "https://www.dezeen.com/2026/06/26/ikea-canada-flag-campaign/",
+      "source_name": "Dezeen",
+      "image": "http://static.dezeen.com/uploads/2026/06/ikea-canada-flag-world-cup-campaign_dezeen_2364_sq-411x411.jpg"
+    },
+    {
+      "category": "타이포그래피",
+      "headline": "뉴욕시장 맘다니, 공식 서체를 새로 입다",
+      "summary": "조란 맘다니 뉴욕 시장이 NBA 챔피언 닉스에게 '열쇠'를 수여했다. 이 열쇠에는 시장실을 위해 새로 커스텀 제작된 세리프 서체 Empirica가 처음 적용됐다. 도시 브랜딩에서 타이포그래피의 역할을 다시 상기시키는 사례다.",
+      "source_url": "https://www.fastcompany.com/91562875/mayor-mamdani-has-a-new-official-font?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-1-91562875-mamdani-typography.jpg"
+    },
+    {
+      "category": "제품",
+      "headline": "전 애플 디자이너, 동네용 전기 버기 'Amble One' 공개",
+      "summary": "애플워치 디자인을 이끌었던 Julian Hoenig이 새로운 모빌리티 스타트업 Amble을 론칭했다. 첫 제품 Amble One은 골프 카트와 소형차, 문 버기의 교집합 같은 전기 차량으로, 단거리 이동을 위한 가벼운 대안을 제시한다.",
+      "source_url": "https://www.dezeen.com/2026/06/26/amble-one-electric-vehicle-design/",
+      "source_name": "Dezeen",
+      "image": "http://static.dezeen.com/uploads/2026/06/amble-one-design_dezeen_2364_sq-411x411.jpg"
+    },
+    {
+      "category": "모션/3D",
+      "headline": "3D 프린팅 후 손으로 구부린다—덴마크 듀오의 새로운 제작 문법",
+      "summary": "덴마크 디자인 듀오 Oberdoerfer & Krebs가 3D 프린팅된 평면 출력물을 재가열해 프로그래밍된 경로를 따라 손으로 구부리는 방식의 가구를 선보였다. 디지털 제조와 수공예의 경계를 허무는 실험적 접근이다.",
+      "source_url": "https://www.designboom.com/design/hand-bent-3d-printing-oberdoerfer-krebs-digital-fabrication-bend-chair-ukurant-3daysofdesign/",
+      "source_name": "Designboom",
+      "image": "https://www.designboom.com/wp-content/uploads/2026/06/oberdoerfer-krebs-3d-printing-ukurant-copenhagen-bend-stool-table-designboom-700-500x400-22b08q85r185.jpg"
+    }
+  ],
+  "events": [],
+  "weekly_summary": "Figma가 Config 2026에서 코드 레이어와 AI 기반 모션 도구를 공개하며 에이전트 시대 생존 전략을 드러냈다. 한편 FIFA 월드컵 열기 속에서 IKEA, 아디다스, Nike 등 브랜드들이 스포츠와 디자인의 접점을 다양하게 탐색했고, 전 애플 디자이너의 전기 버기 Amble One이 새로운 마이크로 모빌리티의 가능성을 열었다. 타이포그래피에서는 뉴욕시장실의 새 공식 서체가 화제를 모았다."
+}

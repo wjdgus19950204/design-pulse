@@ -1,0 +1,71 @@
+{
+  "issue_date": "2026-07-13",
+  "cover": {
+    "category": "AI 도구",
+    "headline": "LLM 번아웃이 온다. AI가 쓴 글에 지쳐버린 사람들",
+    "lead": "우리는 AI의 출력물을 읽는 데 피로를 느끼기 시작했다.",
+    "summary": "한 디자이너가 자신도 모르게 LLM이 생성한 텍스트에 지쳐가고 있다고 고백했다. 기계가 만든 글은 매끄럽지만 어딘가 빈틈없이 건조하고, 그걸 매일 읽다 보면 감각이 무뎌진다는 것이다. AI 도구의 폭발적 확산 속에서 '읽는 피로'라는 새로운 문제가 수면 위로 올라왔다.",
+    "source_url": "https://www.alecscollon.com/blog/llm-burnout/",
+    "source_name": "Sidebar",
+    "image": null
+  },
+  "dispatches": [
+    {
+      "category": "UX/UI",
+      "headline": "CSS 이징 곡선, 펜 툴만 써봤다면 이미 알고 있다",
+      "summary": "애니메이션의 자연스러움을 결정하는 이징 함수. 베지어 곡선 핸들을 조작해본 경험이 있다면 CSS의 cubic-bezier를 직관적으로 이해할 수 있다. 디자이너와 개발자 사이의 간극을 줄여주는 실용적인 해설이다.",
+      "source_url": "https://www.carmenansio.com/articles/css-easing-explained/",
+      "source_name": "Sidebar",
+      "image": null
+    },
+    {
+      "category": "그래픽",
+      "headline": "노르웨이 월드컵 유니폼 타이포그래피, 룬 문자에서 왔다",
+      "summary": "바이킹 시대 룬 문자에서 영감받은 서체가 노르웨이 국가대표 유니폼에 적용됐다. 2024년 버전은 가독성 문제로 비판받았지만, 나이키는 날카로운 형태감은 유지하면서 판독성을 개선한 새 버전을 내놓았다.",
+      "source_url": "https://www.fastcompany.com/91570867/norway-nike-world-cup-kit-typography-taakeferd-nordic-runes?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/p-1-91570867-nike-typography.jpg"
+    },
+    {
+      "category": "브랜딩",
+      "headline": "SpaceXAI 로고, Grok조차 혹평했다",
+      "summary": "SpaceX의 AI 서비스 브랜드 SpaceXAI가 새 로고를 공개했다. SpaceX 워드마크에 xAI 심볼을 억지로 끼워 맞춘 듯한 디자인은 머스크의 자사 AI Grok에게 평가를 요청하자 '시각적으로 혼란스럽다'는 답변을 받았다.",
+      "source_url": "https://www.fastcompany.com/91570200/spacexais-logo-design-grok-critique?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/p-1-91570200-spacexai-logo.jpg"
+    },
+    {
+      "category": "타이포그래피",
+      "headline": "Anthropic, 클로드의 '내부 생각'을 해석하다",
+      "summary": "Anthropic이 대형 언어 모델 클로드의 내부 작동 방식을 해석하는 연구를 공개했다. '글로벌 워크스페이스' 개념을 통해 AI가 어떻게 정보를 처리하고 추론하는지 시각화하려는 시도다. 해석 가능성 연구의 새로운 이정표.",
+      "source_url": "https://www.anthropic.com/research/global-workspace",
+      "source_name": "Sidebar",
+      "image": null
+    },
+    {
+      "category": "제품",
+      "headline": "집중력 잃은 학생이 만든 미니멀 타이머, 스마트폰과 경쟁한다",
+      "summary": "스마트폰의 중독성에 대항하기 위해 디자인 전공생이 개발한 휴대용 집중 타이머. 다마고치 크기의 기기는 손끝에서 작동하며 사용자를 딴짓 대신 몰입으로 유도한다. 단순함이 무기인 안티-스마트폰 제품.",
+      "source_url": "https://www.dezeen.com/2026/07/12/carrie-lee-immersion-focus-timer/",
+      "source_name": "Dezeen",
+      "image": "http://static.dezeen.com/uploads/2026/07/sq-carrie-lee-immersion_dezeen_2364_col_0-411x411.jpg"
+    },
+    {
+      "category": "모션/3D",
+      "headline": "Iris van Herpen, 플라즈마가 흐르는 유리 드레스를 발표하다",
+      "summary": "파리 오트쿠튀르 위크에서 네덜란드 디자이너 이리스 반 헤르펜이 세계 최초로 플라즈마를 활용한 드레스를 선보였다. 유리 구체 안에 담긴 플라즈마는 인간의 손길에 반응해 빛난다. 패션과 과학의 경계를 허무는 작품.",
+      "source_url": "https://www.dezeen.com/2026/07/10/iris-van-herpen-glass-gown-glowing-plasma/",
+      "source_name": "Dezeen",
+      "image": "http://static.dezeen.com/uploads/2026/07/iris-van-herpen-helix-nebula-plasma-dress-glass-spheres-haute-couture-show-sq-411x411.jpg"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-07-09",
+      "name": "RIBA National Awards 2026 발표",
+      "location": "런던",
+      "kind": "기타"
+    }
+  ],
+  "weekly_summary": "이번 주 디자인계는 AI 피로감이라는 새로운 화두를 던졌다. LLM 출력물에 지쳐간다는 고백이 공감을 얻었고, Anthropic은 AI 내부를 들여다보려는 해석 가능성 연구를 발표했다. 한편 나이키는 룬 문자 기반 타이포그래피로 노르웨이 유니폼을 새롭게 단장했고, Iris van Herpen은 플라즈마가 빛나는 유리 드레스로 오트쿠튀르의 한계를 밀어붙였다. SpaceXAI의 어색한 로고는 자사 AI로부터조차 혹평을 받으며 브랜딩 실패 사례로 회자됐다."
+}

@@ -1,0 +1,77 @@
+{
+  "issue_date": "2026-07-20",
+  "cover": {
+    "category": "AI 도구",
+    "headline": "스미소니언, AI로 몽환적 꿈의 공간이 되다",
+    "lead": "레픽 아나돌의 AI 설치작이 미국 건국 250주년을 맞아 내셔널 몰을 빛과 데이터의 환각으로 물들인다.",
+    "summary": "미디어 아티스트 레픽 아나돌이 스미소니언 박물관에 AI 기반 대형 설치작을 선보였다. 박물관 소장품 데이터를 학습한 알고리즘이 실시간으로 시각적 환상을 생성하며, 역사적 건물을 살아 움직이는 디지털 캔버스로 탈바꿈시켰다. 미국 독립 250주년 기념행사의 일환으로 내셔널 몰에서 공개된 이 작품은 문화유산과 인공지능이 만났을 때 가능한 새로운 경험의 지평을 보여준다.",
+    "source_url": "https://www.fastcompany.com/91574979/refik-anadol-installation-smithsonian?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "source_name": "Fast Company",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/03-91574979-smithsonian-dreams.jpg"
+  },
+  "dispatches": [
+    {
+      "category": "UX/UI",
+      "headline": "디자인 시스템에도 '평가 기준'이 필요하다",
+      "summary": "AI 에이전트에게 디자인 시스템을 학습시켰다고 안심할 때가 아니다. 에이전트가 실제로 시스템을 제대로 따르는지 검증할 수 있는 평가 체계, 즉 'evals'가 필수라는 주장이 제기됐다. 품질 관리의 새로운 레이어가 부상하고 있다.",
+      "source_url": "https://blog.murphytrueman.com/design-systems-need-evals/",
+      "source_name": "Sidebar",
+      "image": null
+    },
+    {
+      "category": "그래픽",
+      "headline": "글로시에, 밀턴 글레이저의 'I ♥ NY'로 뉴욕 사랑 고백",
+      "summary": "글로시에가 새 CMO 합류 후 첫 캠페인으로 밀턴 글레이저의 상징적 로고를 립밤에 입혔다. 뉴욕 태생 브랜드의 정체성을 시각적으로 재확인하며, 헤리티지 그래픽과 뷰티의 만남이라는 색다른 협업을 선보인다.",
+      "source_url": "https://www.fastcompany.com/91573686/glossier-i-love-new-york-campaign?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/p-1-91573686-glossier-i-heart-nyc.jpg"
+    },
+    {
+      "category": "브랜딩",
+      "headline": "아디다스는 어떻게 다시 쿨해졌나",
+      "summary": "칸예 웨스트와의 결별 후 연간 17억 달러의 이지 매출을 잃은 아디다스. 하지만 유행을 쫓는 대신 자사 헤리티지에 집중하며 조용히 부활했다. 삼바, 가젤 등 클래식 라인의 재해석이 브랜드 회복의 핵심이었다.",
+      "source_url": "https://www.fastcompany.com/91574615/how-adidas-became-cool-again?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/ROUND1-1.jpg"
+    },
+    {
+      "category": "타이포그래피",
+      "headline": "손글씨 블로그에 하이퍼링크를 넣는 법",
+      "summary": "폴란드의 한 개발자가 손글씨로 블로그를 운영 중이다. 그가 물리적 필기와 디지털 링크를 어떻게 결합하는지, 아날로그와 웹의 경계를 허무는 독특한 작업 방식을 공개했다.",
+      "source_url": "https://handwritten.danieljanus.pl/2022-10-01-hyperlinks-in-handwriting.html",
+      "source_name": "Sidebar",
+      "image": null
+    },
+    {
+      "category": "제품",
+      "headline": "이케아, 차 없이 이사하는 세대를 위한 가구 컬렉션 출시",
+      "summary": "이케아가 잦은 이사가 일상인 젊은 도시 거주자를 위해 '콤피셩' 컬렉션을 선보였다. 배낭처럼 메는 옷장 정리함, 팔에 걸어 나르는 사이드 테이블 등 12종 제품 모두 휴대성을 극대화했다. 가장 비싼 제품도 한화 약 1만 원대.",
+      "source_url": "https://www.dezeen.com/2026/07/15/ikea-kompishang-affordable-portable-furniture-short-term-rentals/",
+      "source_name": "Dezeen",
+      "image": "http://static.dezeen.com/uploads/2026/07/ikea-kompishang-affordable-portable-furniture-collection-london-living-sq-411x411.jpg"
+    },
+    {
+      "category": "모션/3D",
+      "headline": "ZHA와 나가미, 재활용 플라스틱으로 3D 프린팅 의자 제작",
+      "summary": "자하 하디드 아키텍츠(ZHA)가 스페인 브랜드 나가미와 협업해 '에코 체어'를 출시했다. 파라메트릭 디자인으로 구현한 유기적 곡선이 특징이며, 소재는 전량 재활용 플라스틱이다. 지속가능성과 조형미를 동시에 잡았다.",
+      "source_url": "https://www.dezeen.com/2026/07/17/echo-chair-3d-printed-zha-nagami/",
+      "source_name": "Dezeen",
+      "image": "http://static.dezeen.com/uploads/2026/07/echo-chair-3d-printed-zha-nagami_dezeen_2364_sq_0-411x411.jpg"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-07-20",
+      "name": "2026 FIFA 월드컵 결승전",
+      "location": "뉴저지",
+      "kind": "기타"
+    },
+    {
+      "date": "2026-06-05",
+      "name": "Open – Design Week 2026",
+      "location": "프랑크푸르트 라인마인",
+      "kind": "페스티벌"
+    }
+  ],
+  "weekly_summary": "이번 주 디자인계는 월드컵 열기와 AI의 창작 영역 확장이라는 두 축으로 움직였다. 레픽 아나돌의 스미소니언 AI 설치작은 문화유산과 기술의 결합이 어떤 몰입적 경험을 만들어낼 수 있는지 증명했고, 디자인 시스템의 AI 적용에서 '평가'의 필요성이 화두로 떠올랐다. 한편 이케아는 노마드 세대를 위한 휴대용 가구로 라이프스타일 변화에 대응했고, 아디다스는 헤리티지 전략으로 브랜드 부활의 교과서를 썼다. 글로시에의 밀턴 글레이저 협업은 그래픽 유산의 상업적 재해석이라는 점에서 주목할 만하다."
+}

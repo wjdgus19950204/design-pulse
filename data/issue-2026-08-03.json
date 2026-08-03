@@ -1,0 +1,71 @@
+{
+  "issue_date": "2026-08-03",
+  "cover": {
+    "category": "AI 도구",
+    "headline": "AI가 못 읽는 폰트가 등장했다. 인간만을 위한 암호 타이포그래피",
+    "lead": "착시를 역이용해 AI 스크래핑을 차단하는 '디코이 폰트'가 데이터 프라이버시 논쟁의 새 장을 연다.",
+    "summary": "폰트 제작사 Mixfont가 공개한 'Decoy Font'는 인간과 AI에게 서로 다른 메시지를 전달한다. 잘 알려진 착시 현상을 활용해 사람 눈에는 원래 텍스트가, AI 챗봇에는 전혀 다른 내용이 읽히도록 설계됐다. 개인정보 보호와 AI 학습 데이터 수집이 충돌하는 시대, 디자이너들이 타이포그래피로 저항을 시작한 셈이다.",
+    "source_url": "https://www.dezeen.com/2026/07/31/decoy-font-ai-mixfont/",
+    "source_name": "Dezeen",
+    "image": "http://static.dezeen.com/uploads/2026/07/decoy-font-mixfont-eric-lu-design_dezeen_2364_sq-411x411.jpg"
+  },
+  "dispatches": [
+    {
+      "category": "UX/UI",
+      "headline": "'UX'를 대체할 새 이름은 아직 없다. 604명 설문 결과",
+      "summary": "닐슨 노먼 그룹이 604명의 테크·디자인 전문가를 대상으로 조사한 결과, 'UX'는 여전히 업계 기본 명칭으로 굳건했다. 대안 명칭들은 파편화된 채 합의점을 찾지 못하고 있다.",
+      "source_url": "https://www.nngroup.com/articles/no-new-name-ux/",
+      "source_name": "Nielsen Norman Group",
+      "image": null
+    },
+    {
+      "category": "그래픽",
+      "headline": "걸가이딩, 30년 만의 유니폼 리디자인. 자유로운 스타일링이 핵심",
+      "summary": "영국 청소년 단체 걸가이딩이 헤밍웨이 디자인과 협업해 유니폼을 전면 개편했다. 30종의 의류와 15종의 액세서리로 구성되며, 단원들이 원하는 대로 조합할 수 있는 것이 특징이다. 획일성 대신 표현의 자유를 택한 리브랜딩이다.",
+      "source_url": "https://www.dezeen.com/2026/07/30/girlguiding-redesigns-uniform-styled-any-way/",
+      "source_name": "Dezeen",
+      "image": "http://static.dezeen.com/uploads/2026/07/girlguiding-uniforms-sq-1-411x411.jpg"
+    },
+    {
+      "category": "브랜딩",
+      "headline": "기네스, 코로나, 스포티파이가 공유하는 브랜딩 전략: '반복되는 의식'",
+      "summary": "기네스의 'G 쪼개기', 코로나의 라임 꽂기처럼 소비자가 반복하는 행위를 설계하는 것이 강력한 브랜드를 만든다. Fast Company가 분석한 '리추얼 ROI'는 마케팅을 넘어 제품 디자인 단계부터 적용 가능한 전략이다.",
+      "source_url": "https://www.fastcompany.com/91571271/the-hidden-roi-of-rituals-why-the-most-powerful-brands-design-what-people-repeat-branding-rituals",
+      "source_name": "Fast Company",
+      "image": null
+    },
+    {
+      "category": "타이포그래피",
+      "headline": "생성형 AI가 만들어낸 새로운 시각 문법, 'AI 에스테틱'",
+      "summary": "생성형 도구 인터페이스가 특정 시각적 관용구를 도입하고 있다. 짐 닐슨은 블로그를 통해 AI 도구들이 공유하는 디자인 언어가 어떻게 형성되고 있는지를 분석했다.",
+      "source_url": "https://blog.jim-nielsen.com/2026/ai-aesthetic/",
+      "source_name": "Jim Nielsen's Blog",
+      "image": null
+    },
+    {
+      "category": "제품",
+      "headline": "나이키 × 하이퍼아이스, 발을 데우고 진동하는 '리커버리 슬라이드' 공개",
+      "summary": "나이키와 헬스테크 기업 하이퍼아이스가 협업한 슬라이드는 열과 진동으로 운동 후 발 피로를 풀어준다. 스트랩에 내장된 장치가 발등을 마사지하며, 운동선수 회복 시장을 겨냥한 제품이다.",
+      "source_url": "https://www.dezeen.com/2026/07/29/nike-hyperice-heat-and-vibration-recovery-slider/",
+      "source_name": "Dezeen",
+      "image": "http://static.dezeen.com/uploads/2026/07/nike-hyperice-heat-and-vibration-recovery-slide_dezeen_2364_col_0-411x411.jpg"
+    },
+    {
+      "category": "모션/3D",
+      "headline": "인명구조용 로봇 켄타우로스 '쓰리하프스', SF가 현실이 되다",
+      "summary": "캘리포니아 스타트업 새티레스가 공개한 '쓰리하프스'는 2미터 높이에 휴머노이드 상체와 네 다리를 결합한 로봇이다. 이족 보행과 로봇 개 사이에서 새로운 길을 모색하며, 재난 구조 임무를 목표로 한다. 다소 섬뜩한 외형이 화제다.",
+      "source_url": "https://www.fastcompany.com/91582982/satyress-threehalves-robot",
+      "source_name": "Fast Company",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/p-91582982-satyress_c0b3a2.jpg"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-08-01",
+      "name": "designboom radar: 8월 전 세계 전시 라운드업",
+      "location": "글로벌",
+      "kind": "기타"
+    }
+  ],
+  "weekly_summary": "이번 주 디자인계는 AI와의 경계를 다시 긋는 데 집중했다. Mixfont의 '디코이 폰트'는 착시를 활용해 AI 스크래핑을 차단하는 타이포그래피로 주목받았고, 닐슨 노먼 그룹 설문은 'UX'라는 명칭이 여전히 건재함을 확인시켜 줬다. 한편 나이키는 회복 기능을 탑재한 슬라이드로 웨어러블 영역을 확장했고, 걸가이딩의 30년 만의 유니폼 리디자인은 획일성에서 자기표현으로의 전환을 보여줬다. 로봇 켄타우로스 '쓰리하프스'의 등장은 SF적 상상이 제품화되는 속도를 실감케 했다."
+}

@@ -1,0 +1,64 @@
+{
+  "issue_date": "2026-08-17",
+  "cover": {
+    "category": "브랜딩",
+    "headline": "인스타그램, 10년 만에 워드마크 교체. 반필기체의 낯선 균형",
+    "lead": "익숙한 필기체가 사라지고, 읽기 어려운 하이브리드 서체가 등장했다.",
+    "summary": "인스타그램이 2016년 이후 처음으로 워드마크를 교체했다. 새 로고는 필기체와 인쇄체를 절반씩 섞은 형태로, 'Instagzam'처럼 읽힌다는 혹평도 나온다. 메타는 '더 깔끔하고 대담하게'라는 설명을 내놓았지만, 가독성 논란은 피하기 어려워 보인다.",
+    "source_url": "https://www.dezeen.com/2026/08/14/instagram-rebrand-wordmark-script-2026/",
+    "source_name": "Dezeen",
+    "image": "http://static.dezeen.com/uploads/2026/08/instagram-rebrand-2026-sq_dezeen_2364_col_0-411x411.jpg"
+  },
+  "dispatches": [
+    {
+      "category": "UX/UI",
+      "headline": "모질라, AI 프로토타입으로 사용성 테스트의 실패 원인을 재정의하다",
+      "summary": "모질라 UX팀이 AI 보조 네이티브 프로토타입 방식을 도입해 사용성 테스트 결과를 재해석했다. 디자인이 '올바른 이유로 실패'하도록 만드는 것이 핵심이라는 새로운 관점을 제시한다.",
+      "source_url": "https://blog.mozilla.org/ux/2026/08/let-your-designs-fail-for-the-right-reasons/",
+      "source_name": "Mozilla UX Blog",
+      "image": null
+    },
+    {
+      "category": "그래픽",
+      "headline": "Jif, 30년 만의 리브랜드로 '올바른 현대화'의 교본을 쓰다",
+      "summary": "땅콩버터 브랜드 Jif가 1996년 이후 처음으로 로고를 교체했다. 새 워드마크, 서체, 사진 스타일까지 전면 개편하면서도 브랜드의 고유한 개성은 유지해 '리브랜드 정석'이라는 평가를 받는다.",
+      "source_url": "https://www.fastcompany.com/91590609/jifs-new-logo-is-a-rebrand-done-right",
+      "source_name": "Fast Company",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/p-91590609-jif-rebrand-2026.jpg"
+    },
+    {
+      "category": "타이포그래피",
+      "headline": "CSS 2026 현황 발표, 개발자들의 레이아웃 도구 채택률 공개",
+      "summary": "State of CSS 2026 설문 결과가 공개됐다. 모던 CSS 기능에 대한 개발자 채택률과 실제 레이아웃 관행에 관한 실증 데이터를 담고 있어 디자인 시스템 구축에 참고할 만하다.",
+      "source_url": "https://2026.stateofcss.com/en-US/",
+      "source_name": "State of CSS",
+      "image": null
+    },
+    {
+      "category": "제품",
+      "headline": "재규어 Type 01 내부 첫 공개, 중앙 디바이더와 온디맨드 스크린",
+      "summary": "재규어가 전기차 Type 01의 인테리어 렌더링을 공개했다. 논란의 Type 00 콘셉트카의 양산 버전으로, 중앙 디바이더와 필요시에만 나타나는 스크린이 특징이다. 10월 정식 출시 예정.",
+      "source_url": "https://www.dezeen.com/2026/08/13/jaguar-type-01-interior-launch-october/",
+      "source_name": "Dezeen",
+      "image": "http://static.dezeen.com/uploads/2026/08/jaguar-type-01-interior-launch-october_dezeen_2364_sq_2-411x411.jpg"
+    },
+    {
+      "category": "모션/3D",
+      "headline": "Liquid Gooey, 리액트용 액체 UI 이펙트 라이브러리 등장",
+      "summary": "체코 개발자가 공개한 Liquid Gooey는 React 환경에서 끈적한 액체 느낌의 UI 효과를 손쉽게 구현할 수 있는 라이브러리다. 인터랙션 디자이너들 사이에서 빠르게 확산 중이다.",
+      "source_url": "https://gooey.jakubantalik.com/",
+      "source_name": "Jakub Antalík",
+      "image": null
+    },
+    {
+      "category": "AI 도구",
+      "headline": "Beautiful UI, AI 에이전트를 위한 복사-붙여넣기 컴포넌트 라이브러리",
+      "summary": "챗 에이전트, 사고 상태 표시, 휴먼 인 더 루프 승인 등 AI 인터페이스에 필요한 컴포넌트를 정교하게 제작해 공개했다. 코드 복사만으로 바로 사용 가능한 점이 강점이다.",
+      "source_url": "https://www.beautifului.dev/",
+      "source_name": "Beautiful UI",
+      "image": null
+    }
+  ],
+  "events": [],
+  "weekly_summary": "인스타그램이 10년 만에 워드마크를 바꾸며 브랜딩 논쟁의 중심에 섰다. Jif는 30년 만의 리브랜드로 정석적인 현대화 사례를 보여줬고, 재규어는 전기차 Type 01 인테리어를 처음 공개해 양산 임박을 알렸다. AI 도구 영역에서는 에이전트 전용 UI 컴포넌트 라이브러리가 등장해 실무 적용 가능성을 높였다."
+}

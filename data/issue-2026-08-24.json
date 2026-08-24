@@ -1,0 +1,64 @@
+{
+  "issue_date": "2026-08-24",
+  "cover": {
+    "category": "제품",
+    "headline": "하인즈, 케첩 뚜껑을 재발명하다. 3단계 조절 캡의 탄생",
+    "lead": "단순해 보이는 뚜껑 하나에 2년의 디자인 과정이 담겼다.",
+    "summary": "크래프트 하인즈가 산업디자인 스튜디오 Beta Design Office와 협업해 세계 최초의 조절식 케첩 뚜껑 'Love Lid'를 선보였다. 'Like', 'Love', 'Crazy Love' 세 단계로 스냅하면 케첩 분출량이 달라지는 구조다. 수십 년간 변화 없던 케첩병에 정밀한 포션 컨트롤이라는 개념을 도입한 이 프로젝트는, 단순해 보이는 제품일수록 디자인 혁신의 여지가 크다는 점을 증명한다.",
+    "source_url": "https://www.dezeen.com/2026/08/21/kraft-heinz-love-lid-ketchup-adjustable/",
+    "source_name": "Dezeen",
+    "image": "http://static.dezeen.com/uploads/2026/08/heinz-ketchup-love-lid_dezeen_2364_sq-1-411x411.jpg"
+  },
+  "dispatches": [
+    {
+      "category": "UX/UI",
+      "headline": "AI 시대, 디자인은 죽었는가? 제시카 월시의 답변",
+      "summary": "Adobe Design에 실린 제시카 월시의 글이 업계 논쟁을 재점화했다. 그녀는 디자인이 죽은 게 아니라 '개정 중'이라고 주장한다. AI가 실행 속도를 높이는 만큼, 디자이너의 역할은 의미 부여와 맥락 설계로 이동하고 있다는 분석이다.",
+      "source_url": "https://adobe.design/ideas/is-design-dead-in-the-age-of-ai",
+      "source_name": "Sidebar",
+      "image": null
+    },
+    {
+      "category": "그래픽",
+      "headline": "이케아, 컬렉터블 디자인의 문턱을 낮추다",
+      "summary": "이케아가 22개 피스로 구성된 한정판 'Konstrunda' 컬렉션을 공개했다. 안두 마세보, 리사 힐란드 등 7명의 작가가 참여해 일상 오브제를 예술 작품으로 격상시켰다. 젊은 컬렉터들이 부담 없이 시작할 수 있는 가격대가 핵심 전략이다.",
+      "source_url": "https://www.dezeen.com/2026/08/19/ikea-konstrunda-collection-collectible-design-art/",
+      "source_name": "Dezeen",
+      "image": "http://static.dezeen.com/uploads/2026/08/konstrunda-collection-ikea_dezeen_2364_sq-1-411x411.jpg"
+    },
+    {
+      "category": "브랜딩",
+      "headline": "크록스, 파충류 마스코트 '나일스'를 공개하다",
+      "summary": "듀오링고의 부엉이, 맥도날드의 그리머스에 이어 크록스가 새 브랜드 마스코트 '나일스'를 선보였다. 친근한 악어 캐릭터는 Gen-Z 팬덤 공략을 위한 마케팅 전략의 일환으로, 브랜드 마스코트 전쟁이 계속되고 있음을 보여준다.",
+      "source_url": "https://www.fastcompany.com/91593323/crocs-new-mascot-niles?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company Design",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/p-91593323-Crocs-Niles.jpg"
+    },
+    {
+      "category": "타이포그래피",
+      "headline": "Inter가 지겹다면: UI 폰트 선택의 진짜 기준과 10가지 대안",
+      "summary": "UI 폰트 선택에서 중요한 건 미학이 아니라 기능이다. Yeptype의 분석에 따르면, 캡 하이트 중심의 수직 메트릭과 높은 x-height가 핵심 기준이다. Inter의 대안으로 10가지 서체가 제시됐다.",
+      "source_url": "https://yeptype.com/article/inter-alternatives",
+      "source_name": "Sidebar",
+      "image": null
+    },
+    {
+      "category": "모션/3D",
+      "headline": "WebGPU로 모션을 '음영 처리'하는 법",
+      "summary": "개발자 Maxime Heckel이 WebGPU와 TSL을 활용해 모션을 감지하고 스타일화하는 기법을 공개했다. 모션 마스킹, 블롭 트래킹, 옵티컬 플로우, 속도 기반 모션 블러까지 다루는 심층 튜토리얼이다.",
+      "source_url": "https://blog.maximeheckel.com/posts/shading-motion/",
+      "source_name": "Sidebar",
+      "image": null
+    },
+    {
+      "category": "AI 도구",
+      "headline": "Figma, 사용자가 직접 AI 에이전트 스킬을 만들 수 있게 하다",
+      "summary": "Figma가 자사 AI 에이전트에 사용자 커스텀 스킬 제작 기능을 추가했다. 디자이너가 자신의 관점을 반영한 스킬을 직접 작성해 에이전트에 적용할 수 있다. Figma가 추천하는 10가지 스킬 예시도 함께 공개됐다.",
+      "source_url": "https://www.figma.com/blog/try-these-10-skills-and-show-off-your-own/",
+      "source_name": "Sidebar",
+      "image": null
+    }
+  ],
+  "events": [],
+  "weekly_summary": "이번 주 디자인계는 '단순함 속의 혁신'이 화두였다. 하인즈의 조절식 케첩 뚜껑은 수십 년간 변하지 않던 제품에 정밀한 사용자 경험을 더했고, 이케아는 컬렉터블 디자인의 진입 장벽을 허물었다. AI 도구 영역에서는 Figma가 사용자 참여형 에이전트 커스터마이징으로 한 발 앞서 나갔으며, 제시카 월시는 AI 시대 디자이너의 역할 재정의를 촉구했다. 브랜드 마스코트 전쟁은 크록스의 '나일스' 합류로 계속된다."
+}

@@ -1,0 +1,89 @@
+{
+  "issue_date": "2026-09-14",
+  "cover": {
+    "category": "제품",
+    "headline": "애플, 첫 폴더블 아이폰 '듀오' 공개. 여권 크기의 화면이 열린다",
+    "lead": "폴더블 시장의 마지막 주자, 애플이 드디어 접었다.",
+    "summary": "애플이 첫 폴더블 스마트폰 '아이폰 듀오'를 발표했다. 중앙 힌지로 접히는 구조에 역대 아이폰 중 가장 큰 화면을 탑재했으며, 세로형 인터페이스를 새롭게 설계한 iOS 27이 함께 선보였다. 폴더블 후발주자로서 애플이 제시하는 폼팩터와 UX의 방향성에 업계의 관심이 집중되고 있다.",
+    "source_url": "https://www.dezeen.com/2026/09/09/apple-releases-its-first-folding-smartphone-the-size-of-a-passport/",
+    "source_name": "Dezeen",
+    "image": "http://static.dezeen.com/uploads/2026/09/iphone-duo-sqaure2-411x411.jpg"
+  },
+  "dispatches": [
+    {
+      "category": "UX/UI",
+      "headline": "UX 디자인의 다섯 시대, AI 시대에도 유효한 교훈은 무엇인가",
+      "summary": "벨 연구소 시절부터 10년 주기로 재발명을 거듭해온 인간공학(Human Factors) 분야의 역사를 되짚는다. 가장 오래된 교훈들이 오히려 AI 시대를 향한 나침반이 될 수 있다는 통찰을 제시한다.",
+      "source_url": "https://uxdesign.cc/five-eras-of-ux-design-and-the-lessons-to-keep-in-the-ai-era-d76a548747a9/",
+      "source_name": "UX Collective",
+      "image": null
+    },
+    {
+      "category": "그래픽",
+      "headline": "우크로니아, 그랑팔레에 거대한 꽃 조형물 설치. 파리 디자인 위크 개막",
+      "summary": "프랑스 디자인 스튜디오 우크로니아가 그랑팔레 앙탱 로툰다에 기념비적 꽃 설치물 '르 그랑 부케'를 선보였다. 역사적 건축 돔과 대화하듯 설계된 이 작품은 파리 디자인 위크 기간 내내 전시된다.",
+      "source_url": "https://www.dezeen.com/2026/09/11/le-grand-bouquet-uchronia-grand-palais-paris-design-week/",
+      "source_name": "Dezeen",
+      "image": "http://static.dezeen.com/uploads/2026/09/le-grand-bouquet-uchronia-grand-palais-paris-design-week_dezeen_2364_sq_1-411x411.jpg"
+    },
+    {
+      "category": "브랜딩",
+      "headline": "L.L.빈, AI 시대에 오프라인 매장에 베팅하다",
+      "summary": "아웃도어 브랜드 L.L.빈이 메인주 프리포트 본점을 대대적으로 리뉴얼했다. 매장에 들어서면 가장 먼저 보이는 건 제품이 아니라 대형 수조 속 물고기다. 디지털 커머스 시대, 물리적 공간의 가치를 재정의하려는 시도다.",
+      "source_url": "https://www.fastcompany.com/91602349/ll-bean-new-flagship-store-design",
+      "source_name": "Fast Company",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/09/9-91602349-ll-bean-store-opening.jpg"
+    },
+    {
+      "category": "타이포그래피",
+      "headline": "CUBE Type, 등각투영 블록 레터를 만드는 미니 플레이그라운드",
+      "summary": "몇 글자만 입력하면 등각투영(아이소메트릭) 스타일의 블록 타이포그래피가 생성된다. 결과물은 바로 내보내기 가능하고, 회원가입도 필요 없다. 타이포 실험을 위한 가벼운 도구.",
+      "source_url": "https://typeincube.com/",
+      "source_name": "CUBE Type",
+      "image": null
+    },
+    {
+      "category": "모션/3D",
+      "headline": "2,977대 드론이 재현한 쌍둥이 빌딩. 9/11 25주년 추모",
+      "summary": "스튜디오 드리프트와 반 시게루가 협업해 뉴욕 항구 상공에 드론 2,977대로 세계무역센터를 실물 스케일로 재현했다. 각 드론은 희생자 한 명을 상징하며, 25년 전 그날을 기억하게 했다.",
+      "source_url": "https://www.dezeen.com/2026/09/10/studio-drift-shigeru-ban-fly-drone-installation-new-york-911-anniversary/",
+      "source_name": "Dezeen",
+      "image": "http://static.dezeen.com/uploads/2026/09/studio-drift-drone-commemoration_dezeen_2364_sq2-411x411.jpg"
+    },
+    {
+      "category": "AI 도구",
+      "headline": "AI가 '신뢰'라는 것을 무너뜨리고 있다",
+      "summary": "AI로 만들어진 결과물은 완성된 것처럼 보이지만 실제로 이해된 것인지 알 수 없다. 이 불확실성이 협업 속 신뢰를 침식하고, 결국 누군가가 빠진 작업을 떠안게 된다는 경고다.",
+      "source_url": "https://terriblesoftware.org/2026/09/10/ai-is-breaking-this-thing-we-call-trust/",
+      "source_name": "Terrible Software",
+      "image": null
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-09-14",
+      "name": "London Design Festival 2026",
+      "location": "런던",
+      "kind": "페스티벌"
+    },
+    {
+      "date": "2026-09-11",
+      "name": "Paris Design Week 2026",
+      "location": "파리",
+      "kind": "페스티벌"
+    },
+    {
+      "date": "2026-09-10",
+      "name": "Currents Berlin",
+      "location": "베를린",
+      "kind": "페스티벌"
+    },
+    {
+      "date": "2026-09-11",
+      "name": "Maison&Objet",
+      "location": "파리",
+      "kind": "박람회"
+    }
+  ],
+  "weekly_summary": "애플이 마침내 폴더블 시장에 진입하며 아이폰 듀오를 공개했다. 9/11 25주년을 맞아 드론 2,977대가 쌍둥이 빌딩을 하늘에 재현한 추모 퍼포먼스가 뉴욕을 울렸다. 런던·파리·베를린에서 주요 디자인 페스티벌이 동시다발로 열리며 유럽 디자인계가 활기를 띠고, AI가 만들어내는 '가짜 완성'이 협업의 신뢰 기반을 흔든다는 담론이 부상했다."
+}

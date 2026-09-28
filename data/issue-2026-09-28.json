@@ -1,0 +1,77 @@
+{
+  "issue_date": "2026-09-28",
+  "cover": {
+    "category": "제품",
+    "headline": "Meta, '다마고치형' AI 기기 공개. 귀여움으로 두려움을 지운다",
+    "lead": "AI의 이미지 문제를 해결하는 열쇠는 결국 '귀여움'이었다.",
+    "summary": "Meta가 Connect 2026에서 새로운 AI 에이전트 'Muse'와 전용 휴대 기기 'Muse Charm'을 발표했다. 애플워치를 닮은 소형 기기에 끈이 달린 형태로, 전 애플 디자인 책임자 Alan Dye가 이끄는 팀이 설계했다. 대량 실업과 인류 위협에 대한 공포가 커지는 가운데, Meta는 기술 공포 대신 '카와이'를 전략으로 선택했다.",
+    "source_url": "https://www.dezeen.com/2026/09/25/meta-debuts-tamagotchi-style-ai-agent/",
+    "source_name": "Dezeen",
+    "image": "http://static.dezeen.com/uploads/2026/09/sq-meta-muse-charm_dezeen_2364_col_0-411x411.jpg"
+  },
+  "dispatches": [
+    {
+      "category": "UX/UI",
+      "headline": "도구는 건너뛰고, 결과물만 만들어라",
+      "summary": "AI 시대에 디자이너들이 도구에 집착하는 습관을 재고해야 한다는 Luke W의 글이 화제다. 프로토타입 툴, 디자인 시스템보다 최종 아웃컴에 집중하라는 메시지가 핵심이다.",
+      "source_url": "https://www.lukew.com/ff/entry.asp?2163",
+      "source_name": "Sidebar",
+      "image": null
+    },
+    {
+      "category": "그래픽",
+      "headline": "MoMA, 정보 디자인의 '아름다운 쓸모'를 조명하다",
+      "summary": "뉴욕 MoMA가 인포그래픽과 데이터 시각화의 역사를 탐구하는 전시를 개최했다. 인스타그램에 공유되는 인포그래픽이 정보 전달뿐 아니라 자기표현의 도구가 된 현상에 주목한다.",
+      "source_url": "https://www.fastcompany.com/91612965/moma-explores-the-useful-beauty-of-information-design",
+      "source_name": "Fast Company Design",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/09/p-91612965-MoMA-full-disclosure-the-edge-of-information-design.jpg"
+    },
+    {
+      "category": "브랜딩",
+      "headline": "Bentley 첫 전기차 'Torcal' 공개. 헤리티지와 미래의 균형점",
+      "summary": "벤틀리가 브랜드 최초의 완전 전기차 Torcal을 런던에서 공개했다. 디자인 책임자 Robin Page는 100년 유산을 '진보적 방식'으로 재해석했다고 밝혔다. 전기화 시대 럭셔리 자동차의 정체성을 묻는 출발점이다.",
+      "source_url": "https://www.dezeen.com/2026/09/23/bentley-first-electric-car-torcal-robin-page-interview/",
+      "source_name": "Dezeen",
+      "image": "http://static.dezeen.com/uploads/2026/09/bentley-first-electric-car-torcal-robin-page-interview_dezeen_2364_sq_9-411x411.jpg"
+    },
+    {
+      "category": "타이포그래피",
+      "headline": "$100 지폐 해부학 — 15가지 보안 디자인의 비밀",
+      "summary": "미국 100달러 지폐의 디자인과 보안 요소를 3D로 탐험할 수 있는 인터랙티브 사이트가 등장했다. 15개 디자인·보안 기능 그룹을 시각적으로 풀어낸 점이 인상적이다.",
+      "source_url": "https://www.realworth.io/anatomy-of-a-100-dollar-bill",
+      "source_name": "Sidebar",
+      "image": null
+    },
+    {
+      "category": "모션/3D",
+      "headline": "MSCHF, Lexus 전기차를 뒤틀어 '자동차 컨셉의 부조리'를 폭로하다",
+      "summary": "브루클린 아트 스튜디오 MSCHF가 뉴욕 아모리 위크에 맞춰 원형과 꼬인 형태의 Lexus 조형물 두 점을 선보였다. 자동차 산업의 컨셉카 프로토타입 문화를 풍자한 작업이다.",
+      "source_url": "https://www.dezeen.com/2026/09/24/mschf-lexus-electric-motomorphosis-circle-car-twisted-car-amory-week/",
+      "source_name": "Dezeen",
+      "image": "http://static.dezeen.com/uploads/2026/09/motomorphosis-lexus-chelsea-industrial-circle-car-twist-car_dezeen_2364_sq-1-411x411.jpg"
+    },
+    {
+      "category": "AI 도구",
+      "headline": "스마트 안경 탐지 앱 'ZuckOff' 등장",
+      "summary": "Meta Ray-Ban 등 AI 스마트 안경이 주변에 있는지 블루투스 신호로 감지해주는 앱이 출시됐다. 무단 촬영에 대한 불안이 커지면서, 프라이버시 보호 도구로 주목받고 있다.",
+      "source_url": "https://www.fastcompany.com/91610390/this-app-is-a-smart-glasses-creep-detector",
+      "source_name": "Fast Company Design",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/09/p-1-91610390-zuckoff-app.png"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-09-24",
+      "name": "Meta Connect 2026",
+      "location": "Menlo Park",
+      "kind": "컨퍼런스"
+    },
+    {
+      "date": "2026-09-24",
+      "name": "New York Armory Show",
+      "location": "New York",
+      "kind": "박람회"
+    }
+  ],
+  "weekly_summary": "이번 주 디자인계는 AI의 물리적 형태에 주목했다. Meta는 다마고치를 연상시키는 휴대용 AI 기기 Muse Charm을 공개하며 기술 공포 대신 친근함을 내세웠고, 반대편에서는 스마트 안경을 탐지하는 프라이버시 앱이 등장해 양면성을 보여줬다. 벤틀리의 첫 전기차 Torcal은 럭셔리 브랜드가 전동화 시대에 어떻게 정체성을 유지할지 질문을 던졌다. MoMA의 정보 디자인 전시부터 MSCHF의 뒤틀린 자동차 조형물까지, 시각 언어의 의미와 한계를 탐구한 한 주였다."
+}

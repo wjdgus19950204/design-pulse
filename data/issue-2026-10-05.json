@@ -1,0 +1,95 @@
+{
+  "issue_date": "2026-10-05",
+  "cover": {
+    "category": "UX/UI",
+    "headline": "구글의 AI는 최고다. 그런데 왜 제품은 여전히 망가져 보일까",
+    "lead": "모델 성능이 아니라 사용자와의 신뢰 계약이 문제다.",
+    "summary": "세계 최고 수준의 AI를 보유한 구글이지만, 정작 사용자들은 제품 경험에서 끊임없이 불편을 호소한다. 문제는 AI 모델 자체가 아니라, 오랜 시간 쌓아온 '사용자와의 약속'을 AI 시대에 맞게 재정의하지 못한 데 있다. 기술의 우위가 곧 좋은 제품을 의미하지 않는다는 점을 다시금 상기시킨다.",
+    "source_url": "https://hitesh.in/2026/best-ai-still-feels-broken/",
+    "source_name": "Hitesh.in",
+    "image": null
+  },
+  "dispatches": [
+    {
+      "category": "그래픽",
+      "headline": "MoMA, 인포그래픽의 역사부터 AI 합성 기억까지 조망하다",
+      "summary": "뉴욕 현대미술관이 파올라 안토넬리 큐레이션으로 'Full Disclosure' 전시를 열었다. 고전적 데이터 시각화부터 AI로 생성한 '존재하지 않는 기억'까지, 정보 디자인의 확장된 영역을 탐구한다.",
+      "source_url": "https://www.dezeen.com/2026/09/30/moma-information-design-exhibition-full-disclosure/",
+      "source_name": "Dezeen",
+      "image": "http://static.dezeen.com/uploads/2026/09/moma-full-disclosure-data-exhibition_dezeen_2364_sq-411x411.jpg"
+    },
+    {
+      "category": "브랜딩",
+      "headline": "복스홀, 111년 만에 그리핀 로고에서 깃발을 내렸다",
+      "summary": "영국 자동차 브랜드 복스홀이 13번째 로고 업데이트를 공개했다. 1915년부터 함께해온 그리핀 상징은 유지하되, 깃발을 제거하고 형태를 더욱 단순화해 현대적 감각을 더했다.",
+      "source_url": "https://www.dezeen.com/2026/09/30/vauxhall-griffin-logo-streamline/",
+      "source_name": "Dezeen",
+      "image": "http://static.dezeen.com/uploads/2026/09/vauxhall-griffin-logo-streamline_dezeen_2364_sq_2-411x411.jpg"
+    },
+    {
+      "category": "타이포그래피",
+      "headline": "구글, 3,977개 노토 이모지를 3D로 재탄생시킨 과정 공개",
+      "summary": "구글 디자인팀이 노토 이모지 전체를 3D로 재해석한 작업 과정을 상세히 공개했다. 평면 아이콘에 깊이와 질감을 더하면서도 일관된 시각 언어를 유지한 비결을 담았다.",
+      "source_url": "https://design.google/library/noto-3d-emoji-design",
+      "source_name": "Google Design",
+      "image": null
+    },
+    {
+      "category": "제품",
+      "headline": "뚜껑이 필요 없는 종이컵. Nothing이 제안하는 테이크아웃의 미래",
+      "summary": "플로리다 스타트업 Nothing이 뚜껑이 컵 자체에 통합된 종이컵을 선보였다. 컵 상단을 접으면 뚜껑이 되고, 수성 코팅 덕분에 완전 퇴비화가 가능하다. 플라스틱 뚜껑 없는 카페를 현실로 만들 수 있을까.",
+      "source_url": "https://www.dezeen.com/2026/10/02/nothing-takeaway-paper-cup/",
+      "source_name": "Dezeen",
+      "image": "http://static.dezeen.com/uploads/2026/10/nothing-paper-cup_dezeen_2364_sq-411x411.jpg"
+    },
+    {
+      "category": "모션/3D",
+      "headline": "로딩 안의 로딩. UX가 꼬이는 순간",
+      "summary": "로딩 상태 안에 또 다른 로딩이 중첩될 때, 가장 자연스러워 보이는 해결책이 오히려 최악의 선택이 될 수 있다. 복잡한 비동기 상태를 다루는 디자이너와 개발자를 위한 실전 고찰.",
+      "source_url": "https://unsung.aresluna.org/a-loading-state-within-a-loading-state/",
+      "source_name": "Unsung",
+      "image": null
+    },
+    {
+      "category": "AI 도구",
+      "headline": "코딩 에이전트에게 컴포넌트 라이브러리를 가르치는 법",
+      "summary": "Libraries.dev가 AI 코딩 에이전트용 '스킬' 기능을 공개했다. Border beam, Thinking orbs 같은 UI 컴포넌트를 에이전트에게 직접 학습시켜, 프롬프트만으로 정교한 인터페이스 구현이 가능해진다.",
+      "source_url": "https://libraries.dev/skill",
+      "source_name": "Libraries.dev",
+      "image": null
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-10-01",
+      "name": "Archtober",
+      "location": "뉴욕",
+      "kind": "페스티벌"
+    },
+    {
+      "date": "2026-10-01",
+      "name": "Dutch Design Week",
+      "location": "에인트호번",
+      "kind": "페스티벌"
+    },
+    {
+      "date": "2026-10-01",
+      "name": "Design Week Lagos",
+      "location": "라고스",
+      "kind": "페스티벌"
+    },
+    {
+      "date": "2026-10-01",
+      "name": "Designblok",
+      "location": "프라하",
+      "kind": "페스티벌"
+    },
+    {
+      "date": "2026-10-01",
+      "name": "Design Week Mexico",
+      "location": "멕시코시티",
+      "kind": "페스티벌"
+    }
+  ],
+  "weekly_summary": "이번 주 디자인계는 AI 제품의 본질적 딜레마를 정면으로 마주했다. 구글 사례가 보여주듯, 기술력만으로는 좋은 경험을 보장할 수 없다. 한편 MoMA는 AI가 만든 '합성 기억'까지 정보 디자인의 영역으로 끌어들이며 장르의 경계를 넓혔다. 브랜딩에서는 복스홀이 111년 된 로고를 또 한 번 정제했고, 제품 디자인에서는 Nothing의 일체형 종이컵이 일회용품의 미래를 다시 그렸다."
+}

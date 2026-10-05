@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pulse · 2026-10-05</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --bg-2: #f5f4f0;
+    --text: #1a1a1a;
+    --text-2: #5f5e5a;
+    --text-3: #888780;
+    --border: rgba(0,0,0,0.1);
+    --accent: #1a1a1a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1a1a1a;
+      --bg-2: #2c2c2a;
+      --text: #f5f4f0;
+      --text-2: #b4b2a9;
+      --text-3: #888780;
+      --border: rgba(255,255,255,0.12);
+      --accent: #f5f4f0;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Pretendard", "Apple SD Gothic Neo", sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .container { max-width: 880px; margin: 0 auto; padding: 24px; }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 0.5px solid var(--border);
+  }
+  .logo { display: flex; align-items: center; gap: 10px; font-weight: 500; }
+  .logo-mark {
+    width: 28px; height: 28px; background: var(--accent);
+    color: var(--bg); border-radius: 6px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 15px; font-weight: 500;
+  }
+  .nav-links { display: flex; gap: 24px; font-size: 13px; color: var(--text-2); }
+  .masthead {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    gap: 40px;
+    align-items: end;
+    padding: 48px 0 32px;
+    border-bottom: 0.5px solid var(--border);
+  }
+  .issue-meta {
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--text-2);
+    margin: 0 0 12px;
+  }
+  h1.masthead-title {
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 0.95;
+    letter-spacing: -0.035em;
+    margin: 0;
+  }
+  .masthead-sub {
+    font-size: 15px;
+    line-height: 1.7;
+    color: var(--text-2);
+    margin: 0;
+    max-width: 380px;
+    justify-self: end;
+  }
+  .hero-img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    margin: 32px 0 8px;
+    border-radius: 12px;
+    overflow: hidden;
+    background: var(--bg-2);
+  }
+  .hero-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .hero-caption {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    color: var(--text-3);
+    padding: 0 4px;
+    margin-bottom: 32px;
+  }
+  .cover-section {
+    padding: 24px 0 40px;
+    border-bottom: 0.5px solid var(--border);
+  }
+  .cover-tag {
+    display: flex; align-items: center; gap: 10px;
+    font-size: 11px; letter-spacing: 0.15em;
+    text-transform: uppercase; color: var(--text-2);
+    margin-bottom: 16px;
+  }
+  .cover-tag::before {
+    content: ""; display: inline-block;
+    width: 6px; height: 6px; border-radius: 50%; background: #378ADD;
+  }
+  h2.cover-headline {
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -0.025em;
+    margin: 0 0 16px;
+    max-width: 620px;
+  }
+  .cover-lead {
+    font-size: 17px;
+    line-height: 1.6;
+    color: var(--text-2);
+    margin: 0 0 24px;
+    max-width: 580px;
+  }
+  .cover-cta {
+    display: inline-block;
+    font-size: 13px;
+    padding: 8px 16px;
+    border-radius: 999px;
+    background: var(--accent);
+    color: var(--bg);
+    text-decoration: none;
+    margin-right: 12px;
+  }
+  .cover-source {
+    font-size: 12px;
+    color: var(--text-3);
+  }
+  .weekly-summary {
+    margin: 32px 0;
+    padding: 20px 24px;
+    background: var(--bg-2);
+    border-radius: 12px;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+  .weekly-summary p { margin: 0; }
+  .weekly-summary-label {
+    font-size: 11px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--text-3);
+    margin-bottom: 8px !important;
+  }
+  .dispatches-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 40px 0 24px;
+  }
+  .dispatches-header h2 {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0;
+    letter-spacing: -0.01em;
+  }
+  .dispatches-header span {
+    font-size: 12px;
+    color: var(--text-3);
+  }
+  .dispatches {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 24px;
+  }
+  .dispatch a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .dispatch-img {
+    aspect-ratio: 4/3;
+    background: var(--bg-2);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 14px;
+  }
+  .dispatch-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .dispatch-cat {
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--text-2);
+    margin: 0 0 6px;
+  }
+  .dispatch-headline {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.35;
+    letter-spacing: -0.005em;
+    margin: 0 0 8px;
+  }
+  .dispatch-summary {
+    font-size: 13px;
+    line-height: 1.65;
+    color: var(--text-2);
+    margin: 0 0 8px;
+  }
+  .dispatch-source {
+    font-size: 11px;
+    color: var(--text-3);
+  }
+  .calendar {
+    margin: 56px 0 32px;
+    padding: 28px;
+    background: var(--bg-2);
+    border-radius: 12px;
+  }
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 16px;
+  }
+  .calendar-header h2 { font-size: 22px; font-weight: 500; margin: 0; letter-spacing: -0.01em; }
+  .event {
+    display: grid;
+    grid-template-columns: 60px 1fr auto;
+    gap: 20px;
+    align-items: center;
+    padding: 14px 0;
+    border-top: 0.5px solid var(--border);
+  }
+  .event-date-num {
+    font-size: 24px; font-weight: 500; line-height: 1;
+    letter-spacing: -0.02em; margin: 0;
+  }
+  .event-date-month {
+    font-size: 10px; letter-spacing: 0.15em;
+    color: var(--text-3); margin: 2px 0 0;
+  }
+  .event-name { font-size: 14px; font-weight: 500; margin: 0; }
+  .event-loc { font-size: 12px; color: var(--text-2); margin: 2px 0 0; }
+  .event-kind {
+    font-size: 11px; letter-spacing: 0.1em;
+    color: var(--text-3);
+  }
+  footer {
+    margin-top: 56px;
+    padding-top: 24px;
+    border-top: 0.5px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: var(--text-3);
+  }
+  footer p { margin: 0; }
+  @media (max-width: 640px) {
+    .masthead { grid-template-columns: 1fr; gap: 16px; }
+    .masthead-sub { justify-self: start; }
+    h1.masthead-title { font-size: 40px; }
+    h2.cover-headline { font-size: 28px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <nav>
+    <div class="logo">
+      <span class="logo-mark">P</span>
+      <span>Pulse</span>
+    </div>
+    <div class="nav-links">
+      <span>최신호</span>
+      <span>지난 호</span>
+      <span>소개</span>
+    </div>
+  </nav>
+
+  <div class="masthead">
+    <div>
+      <p class="issue-meta">2026-10-05</p>
+      <h1 class="masthead-title">이번 주의<br>디자인.</h1>
+    </div>
+    <p class="masthead-sub">UX, 브랜딩, 타이포, 제품, 모션, 그래픽, AI 도구. 전 세계 디자인 현장에서 일어난 일들을 매주 월요일 아침에 정리해 보내드립니다.</p>
+  </div>
+
+  
+
+  <div class="cover-section">
+    <div class="cover-tag">커버 스토리 · UX/UI</div>
+    <h2 class="cover-headline">구글의 AI는 최고다. 그런데 왜 제품은 여전히 망가져 보일까</h2>
+    <p class="cover-lead">모델 성능이 아니라 사용자와의 신뢰 계약이 문제다.</p>
+    <p class="cover-lead" style="font-size: 14px;">세계 최고 수준의 AI를 보유한 구글이지만, 정작 사용자들은 제품 경험에서 끊임없이 불편을 호소한다. 문제는 AI 모델 자체가 아니라, 오랜 시간 쌓아온 &#39;사용자와의 약속&#39;을 AI 시대에 맞게 재정의하지 못한 데 있다. 기술의 우위가 곧 좋은 제품을 의미하지 않는다는 점을 다시금 상기시킨다.</p>
+    <a class="cover-cta" href="https://hitesh.in/2026/best-ai-still-feels-broken/" target="_blank" rel="noopener">전문 읽기 →</a>
+    <span class="cover-source">출처: Hitesh.in</span>
+  </div>
+
+  
+  <div class="weekly-summary">
+    <p class="weekly-summary-label">이번 주 한 단락</p>
+    <p>이번 주 디자인계는 AI 제품의 본질적 딜레마를 정면으로 마주했다. 구글 사례가 보여주듯, 기술력만으로는 좋은 경험을 보장할 수 없다. 한편 MoMA는 AI가 만든 &#39;합성 기억&#39;까지 정보 디자인의 영역으로 끌어들이며 장르의 경계를 넓혔다. 브랜딩에서는 복스홀이 111년 된 로고를 또 한 번 정제했고, 제품 디자인에서는 Nothing의 일체형 종이컵이 일회용품의 미래를 다시 그렸다.</p>
+  </div>
+  
+
+  <div class="dispatches-header">
+    <h2>디스패치</h2>
+    <span>6개 분야 · 각 분야 톱 1편</span>
+  </div>
+
+  <div class="dispatches">
+    
+    <div class="dispatch">
+      <a href="https://www.dezeen.com/2026/09/30/moma-information-design-exhibition-full-disclosure/" target="_blank" rel="noopener">
+        
+        <div class="dispatch-img"><img src="http://static.dezeen.com/uploads/2026/09/moma-full-disclosure-data-exhibition_dezeen_2364_sq-411x411.jpg" alt="" loading="lazy"></div>
+        
+        <p class="dispatch-cat">№ 01 · 그래픽</p>
+        <h3 class="dispatch-headline">MoMA, 인포그래픽의 역사부터 AI 합성 기억까지 조망하다</h3>
+        <p class="dispatch-summary">뉴욕 현대미술관이 파올라 안토넬리 큐레이션으로 &#39;Full Disclosure&#39; 전시를 열었다. 고전적 데이터 시각화부터 AI로 생성한 &#39;존재하지 않는 기억&#39;까지, 정보 디자인의 확장된 영역을 탐구한다.</p>
+        <p class="dispatch-source">Dezeen</p>
+      </a>
+    </div>
+    
+    <div class="dispatch">
+      <a href="https://www.dezeen.com/2026/09/30/vauxhall-griffin-logo-streamline/" target="_blank" rel="noopener">
+        
+        <div class="dispatch-img"><img src="http://static.dezeen.com/uploads/2026/09/vauxhall-griffin-logo-streamline_dezeen_2364_sq_2-411x411.jpg" alt="" loading="lazy"></div>
+        
+        <p class="dispatch-cat">№ 02 · 브랜딩</p>
+        <h3 class="dispatch-headline">복스홀, 111년 만에 그리핀 로고에서 깃발을 내렸다</h3>
+        <p class="dispatch-summary">영국 자동차 브랜드 복스홀이 13번째 로고 업데이트를 공개했다. 1915년부터 함께해온 그리핀 상징은 유지하되, 깃발을 제거하고 형태를 더욱 단순화해 현대적 감각을 더했다.</p>
+        <p class="dispatch-source">Dezeen</p>
+      </a>
+    </div>
+    
+    <div class="dispatch">
+      <a href="https://design.google/library/noto-3d-emoji-design" target="_blank" rel="noopener">
+        
+        <div class="dispatch-img"></div>
+        
+        <p class="dispatch-cat">№ 03 · 타이포그래피</p>
+        <h3 class="dispatch-headline">구글, 3,977개 노토 이모지를 3D로 재탄생시킨 과정 공개</h3>
+        <p class="dispatch-summary">구글 디자인팀이 노토 이모지 전체를 3D로 재해석한 작업 과정을 상세히 공개했다. 평면 아이콘에 깊이와 질감을 더하면서도 일관된 시각 언어를 유지한 비결을 담았다.</p>
+        <p class="dispatch-source">Google Design</p>
+      </a>
+    </div>
+    
+    <div class="dispatch">
+      <a href="https://www.dezeen.com/2026/10/02/nothing-takeaway-paper-cup/" target="_blank" rel="noopener">
+        
+        <div class="dispatch-img"><img src="http://static.dezeen.com/uploads/2026/10/nothing-paper-cup_dezeen_2364_sq-411x411.jpg" alt="" loading="lazy"></div>
+        
+        <p class="dispatch-cat">№ 04 · 제품</p>
+        <h3 class="dispatch-headline">뚜껑이 필요 없는 종이컵. Nothing이 제안하는 테이크아웃의 미래</h3>
+        <p class="dispatch-summary">플로리다 스타트업 Nothing이 뚜껑이 컵 자체에 통합된 종이컵을 선보였다. 컵 상단을 접으면 뚜껑이 되고, 수성 코팅 덕분에 완전 퇴비화가 가능하다. 플라스틱 뚜껑 없는 카페를 현실로 만들 수 있을까.</p>
+        <p class="dispatch-source">Dezeen</p>
+      </a>
+    </div>
+    
+    <div class="dispatch">
+      <a href="https://unsung.aresluna.org/a-loading-state-within-a-loading-state/" target="_blank" rel="noopener">
+        
+        <div class="dispatch-img"></div>
+        
+        <p class="dispatch-cat">№ 05 · 모션/3D</p>
+        <h3 class="dispatch-headline">로딩 안의 로딩. UX가 꼬이는 순간</h3>
+        <p class="dispatch-summary">로딩 상태 안에 또 다른 로딩이 중첩될 때, 가장 자연스러워 보이는 해결책이 오히려 최악의 선택이 될 수 있다. 복잡한 비동기 상태를 다루는 디자이너와 개발자를 위한 실전 고찰.</p>
+        <p class="dispatch-source">Unsung</p>
+      </a>
+    </div>
+    
+    <div class="dispatch">
+      <a href="https://libraries.dev/skill" target="_blank" rel="noopener">
+        
+        <div class="dispatch-img"></div>
+        
+        <p class="dispatch-cat">№ 06 · AI 도구</p>
+        <h3 class="dispatch-headline">코딩 에이전트에게 컴포넌트 라이브러리를 가르치는 법</h3>
+        <p class="dispatch-summary">Libraries.dev가 AI 코딩 에이전트용 &#39;스킬&#39; 기능을 공개했다. Border beam, Thinking orbs 같은 UI 컴포넌트를 에이전트에게 직접 학습시켜, 프롬프트만으로 정교한 인터페이스 구현이 가능해진다.</p>
+        <p class="dispatch-source">Libraries.dev</p>
+      </a>
+    </div>
+    
+  </div>
+
+  
+  <div class="calendar">
+    <div class="calendar-header">
+      <h2>이번 주 캘린더</h2>
+      <span style="font-size:12px;color:var(--text-3);">5개 이벤트</span>
+    </div>
+    
+    <div class="event">
+      <div style="text-align:center;">
+        <p class="event-date-num">01</p>
+        <p class="event-date-month">10월</p>
+      </div>
+      <div>
+        <p class="event-name">Archtober</p>
+        <p class="event-loc">뉴욕</p>
+      </div>
+      <span class="event-kind">페스티벌</span>
+    </div>
+    
+    <div class="event">
+      <div style="text-align:center;">
+        <p class="event-date-num">01</p>
+        <p class="event-date-month">10월</p>
+      </div>
+      <div>
+        <p class="event-name">Dutch Design Week</p>
+        <p class="event-loc">에인트호번</p>
+      </div>
+      <span class="event-kind">페스티벌</span>
+    </div>
+    
+    <div class="event">
+      <div style="text-align:center;">
+        <p class="event-date-num">01</p>
+        <p class="event-date-month">10월</p>
+      </div>
+      <div>
+        <p class="event-name">Design Week Lagos</p>
+        <p class="event-loc">라고스</p>
+      </div>
+      <span class="event-kind">페스티벌</span>
+    </div>
+    
+    <div class="event">
+      <div style="text-align:center;">
+        <p class="event-date-num">01</p>
+        <p class="event-date-month">10월</p>
+      </div>
+      <div>
+        <p class="event-name">Designblok</p>
+        <p class="event-loc">프라하</p>
+      </div>
+      <span class="event-kind">페스티벌</span>
+    </div>
+    
+    <div class="event">
+      <div style="text-align:center;">
+        <p class="event-date-num">01</p>
+        <p class="event-date-month">10월</p>
+      </div>
+      <div>
+        <p class="event-name">Design Week Mexico</p>
+        <p class="event-loc">멕시코시티</p>
+      </div>
+      <span class="event-kind">페스티벌</span>
+    </div>
+    
+  </div>
+  
+
+  <footer>
+    <p>Pulse · 2026-10-05<br>Claude가 매주 정리합니다</p>
+    <p>← 지난 호 보기</p>
+  </footer>
+
+</div>
+</body>
+</html>

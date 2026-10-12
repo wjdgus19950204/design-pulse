@@ -1,0 +1,77 @@
+{
+  "issue_date": "2026-10-12",
+  "cover": {
+    "category": "AI 도구",
+    "headline": "AI 시대, 디자이너의 헌법이 필요하다",
+    "lead": "15만 명의 크리에이터가 답했다—AI는 창작을 어떻게 바꾸고 있는가.",
+    "summary": "'디자이너 헌법(The Designer's Constitution)'은 AI 시대에 디자이너란 무엇인지를 재정의하려는 시도다. 같은 주에 공개된 Creative Intelligence Report는 15만 명 이상의 현업 크리에이터를 대상으로 AI가 창작 작업을 어떻게 변화시키고 있는지 조사했다. 도구가 똑똑해질수록, 우리가 '디자이너'라고 부르는 정체성은 재협상의 대상이 된다.",
+    "source_url": "https://constitution.design/",
+    "source_name": "Sidebar",
+    "image": null
+  },
+  "dispatches": [
+    {
+      "category": "UX/UI",
+      "headline": "채팅은 AI의 커맨드라인이다—더 나은 인터페이스가 필요하다",
+      "summary": "Amelia Wattenberger는 현재의 AI 인터페이스가 '터미널 시대'에 머물러 있다고 지적한다. AI는 단순히 '더 유능한 대화 상대'가 아니라, 우리를 더 유능하게 만드는 도구여야 한다는 주장이다.",
+      "source_url": "https://wattenberger.com/thoughts/ai-is-still-in-its-terminal-era/",
+      "source_name": "Sidebar",
+      "image": null
+    },
+    {
+      "category": "그래픽",
+      "headline": "상파울루 바와 레스토랑에 복고풍 따스함을 입히는 브라질 스튜디오들",
+      "summary": "브라질 디자인 스튜디오들이 상파울루의 바와 레스토랑 브랜딩에 레트로 레퍼런스와 수작업 디테일을 적극 활용하고 있다. 거리에 유쾌함과 노스탤지어를 불어넣는 이들의 전략을 It's Nice That이 분석했다.",
+      "source_url": "https://www.itsnicethat.com/features/the-view-from-sao-paulo-retro-bar-and-restaurant-branding-graphic-design-140926",
+      "source_name": "Sidebar",
+      "image": null
+    },
+    {
+      "category": "브랜딩",
+      "headline": "빅테크, AI 에이전트를 귀여운 캐릭터로 포장하기 시작했다",
+      "summary": "SpaceXAI부터 주요 AI 기업들까지, 에이전트 기능을 소개하며 '귀여운 마스코트'라는 동일한 시각 언어로 수렴하고 있다. AI의 위압감을 친근함으로 희석하려는 'cutewashing' 전략이다.",
+      "source_url": "https://www.fastcompany.com/91620091/big-tech-is-cutewashing-its-ai-agents",
+      "source_name": "Fast Company Design",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91620091-ai-mascots.jpg"
+    },
+    {
+      "category": "타이포그래피",
+      "headline": "스테판 사그마이스터, 글로벌 데이터를 컬러풀한 스니커즈로 번역하다",
+      "summary": "그래픽 디자인계의 거장 스테판 사그마이스터가 독일 신발 브랜드 EKN과 협업해 데이터 시각화를 스니커즈와 부츠 디자인으로 전환했다. 파리 전시를 앞두고 공개된 이 프로젝트는 정보를 착용 가능한 형태로 물질화한다.",
+      "source_url": "https://www.designboom.com/design/stefan-sagmeister-ekn-global-data-colorful-sneakers-boots-frankfurt/",
+      "source_name": "Designboom",
+      "image": "https://www.designboom.com/wp-content/uploads/2026/10/stefan-sagmeister-ekn-global-data-colorful-sneakers-boots-frankfurt-2-500x400-22b08q85r203.jpg"
+    },
+    {
+      "category": "제품",
+      "headline": "재규어 Type 01 전기차 공개—조롱을 뚫고 '새 시대' 선언",
+      "summary": "2년 전 파스텔 컨셉카로 거센 조롱을 받았던 재규어가 마침내 양산형 Type 01 전기차를 뉴욕에서 공개했다. 브랜드의 '새로운 시대를 여는 차'로 포지셔닝되며, 반응은 기대 이상으로 호의적이다.",
+      "source_url": "https://www.dezeen.com/2026/10/10/jaguar-type-01-electric-car-this-week/",
+      "source_name": "Dezeen",
+      "image": "http://static.dezeen.com/uploads/2026/10/jaguar-type-01-_dezeen_2364_sq-1-411x411.jpg"
+    },
+    {
+      "category": "모션/3D",
+      "headline": "빔 벤더스 감독, 페터 춤토르 다큐멘터리를 3D로 완성",
+      "summary": "영화감독 빔 벤더스가 14년에 걸쳐 프리츠커상 수상 건축가 페터 춤토르를 따라갔다. 예배당, 기념관, 문화 공간을 3D 영상으로 담은 이 다큐멘터리는 건축 공간의 경험적 깊이를 스크린에서 재현하려는 시도다.",
+      "source_url": "https://www.designboom.com/architecture/what-youll-see-in-3d-in-the-peter-zumthor-documentary-by-wim-wenders/",
+      "source_name": "Designboom",
+      "image": "https://www.designboom.com/wp-content/uploads/2026/10/wenders-zumthor-designboom-700-500x400-22b08q85r124.jpg"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-10-06",
+      "name": "Designblok 2026",
+      "location": "프라하",
+      "kind": "페스티벌"
+    },
+    {
+      "date": "2026-10-12",
+      "name": "Paris Art Week / Design Miami & Art Basel Paris",
+      "location": "파리",
+      "kind": "박람회"
+    }
+  ],
+  "weekly_summary": "이번 주 디자인계는 AI와 인간 창작자의 관계를 본격적으로 질문하기 시작했다. '디자이너 헌법'과 15만 명 규모의 크리에이터 설문이 그 신호탄이다. 한편 재규어는 조롱을 딛고 새 전기차를 공개했고, 빅테크는 AI 에이전트를 귀여운 마스코트로 포장하는 전략을 본격화했다. 프라하에서는 Designblok이 '빛'을 주제로 28회째를 맞았고, 파리에서는 Art Week가 전 세계 시선을 끌어모았다."
+}

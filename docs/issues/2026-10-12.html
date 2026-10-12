@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pulse · 2026-10-12</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --bg-2: #f5f4f0;
+    --text: #1a1a1a;
+    --text-2: #5f5e5a;
+    --text-3: #888780;
+    --border: rgba(0,0,0,0.1);
+    --accent: #1a1a1a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1a1a1a;
+      --bg-2: #2c2c2a;
+      --text: #f5f4f0;
+      --text-2: #b4b2a9;
+      --text-3: #888780;
+      --border: rgba(255,255,255,0.12);
+      --accent: #f5f4f0;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Pretendard", "Apple SD Gothic Neo", sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .container { max-width: 880px; margin: 0 auto; padding: 24px; }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 0.5px solid var(--border);
+  }
+  .logo { display: flex; align-items: center; gap: 10px; font-weight: 500; }
+  .logo-mark {
+    width: 28px; height: 28px; background: var(--accent);
+    color: var(--bg); border-radius: 6px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 15px; font-weight: 500;
+  }
+  .nav-links { display: flex; gap: 24px; font-size: 13px; color: var(--text-2); }
+  .masthead {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    gap: 40px;
+    align-items: end;
+    padding: 48px 0 32px;
+    border-bottom: 0.5px solid var(--border);
+  }
+  .issue-meta {
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--text-2);
+    margin: 0 0 12px;
+  }
+  h1.masthead-title {
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 0.95;
+    letter-spacing: -0.035em;
+    margin: 0;
+  }
+  .masthead-sub {
+    font-size: 15px;
+    line-height: 1.7;
+    color: var(--text-2);
+    margin: 0;
+    max-width: 380px;
+    justify-self: end;
+  }
+  .hero-img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    margin: 32px 0 8px;
+    border-radius: 12px;
+    overflow: hidden;
+    background: var(--bg-2);
+  }
+  .hero-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .hero-caption {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    color: var(--text-3);
+    padding: 0 4px;
+    margin-bottom: 32px;
+  }
+  .cover-section {
+    padding: 24px 0 40px;
+    border-bottom: 0.5px solid var(--border);
+  }
+  .cover-tag {
+    display: flex; align-items: center; gap: 10px;
+    font-size: 11px; letter-spacing: 0.15em;
+    text-transform: uppercase; color: var(--text-2);
+    margin-bottom: 16px;
+  }
+  .cover-tag::before {
+    content: ""; display: inline-block;
+    width: 6px; height: 6px; border-radius: 50%; background: #378ADD;
+  }
+  h2.cover-headline {
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -0.025em;
+    margin: 0 0 16px;
+    max-width: 620px;
+  }
+  .cover-lead {
+    font-size: 17px;
+    line-height: 1.6;
+    color: var(--text-2);
+    margin: 0 0 24px;
+    max-width: 580px;
+  }
+  .cover-cta {
+    display: inline-block;
+    font-size: 13px;
+    padding: 8px 16px;
+    border-radius: 999px;
+    background: var(--accent);
+    color: var(--bg);
+    text-decoration: none;
+    margin-right: 12px;
+  }
+  .cover-source {
+    font-size: 12px;
+    color: var(--text-3);
+  }
+  .weekly-summary {
+    margin: 32px 0;
+    padding: 20px 24px;
+    background: var(--bg-2);
+    border-radius: 12px;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+  .weekly-summary p { margin: 0; }
+  .weekly-summary-label {
+    font-size: 11px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--text-3);
+    margin-bottom: 8px !important;
+  }
+  .dispatches-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 40px 0 24px;
+  }
+  .dispatches-header h2 {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0;
+    letter-spacing: -0.01em;
+  }
+  .dispatches-header span {
+    font-size: 12px;
+    color: var(--text-3);
+  }
+  .dispatches {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 24px;
+  }
+  .dispatch a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .dispatch-img {
+    aspect-ratio: 4/3;
+    background: var(--bg-2);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 14px;
+  }
+  .dispatch-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .dispatch-cat {
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--text-2);
+    margin: 0 0 6px;
+  }
+  .dispatch-headline {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.35;
+    letter-spacing: -0.005em;
+    margin: 0 0 8px;
+  }
+  .dispatch-summary {
+    font-size: 13px;
+    line-height: 1.65;
+    color: var(--text-2);
+    margin: 0 0 8px;
+  }
+  .dispatch-source {
+    font-size: 11px;
+    color: var(--text-3);
+  }
+  .calendar {
+    margin: 56px 0 32px;
+    padding: 28px;
+    background: var(--bg-2);
+    border-radius: 12px;
+  }
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 16px;
+  }
+  .calendar-header h2 { font-size: 22px; font-weight: 500; margin: 0; letter-spacing: -0.01em; }
+  .event {
+    display: grid;
+    grid-template-columns: 60px 1fr auto;
+    gap: 20px;
+    align-items: center;
+    padding: 14px 0;
+    border-top: 0.5px solid var(--border);
+  }
+  .event-date-num {
+    font-size: 24px; font-weight: 500; line-height: 1;
+    letter-spacing: -0.02em; margin: 0;
+  }
+  .event-date-month {
+    font-size: 10px; letter-spacing: 0.15em;
+    color: var(--text-3); margin: 2px 0 0;
+  }
+  .event-name { font-size: 14px; font-weight: 500; margin: 0; }
+  .event-loc { font-size: 12px; color: var(--text-2); margin: 2px 0 0; }
+  .event-kind {
+    font-size: 11px; letter-spacing: 0.1em;
+    color: var(--text-3);
+  }
+  footer {
+    margin-top: 56px;
+    padding-top: 24px;
+    border-top: 0.5px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: var(--text-3);
+  }
+  footer p { margin: 0; }
+  @media (max-width: 640px) {
+    .masthead { grid-template-columns: 1fr; gap: 16px; }
+    .masthead-sub { justify-self: start; }
+    h1.masthead-title { font-size: 40px; }
+    h2.cover-headline { font-size: 28px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <nav>
+    <div class="logo">
+      <span class="logo-mark">P</span>
+      <span>Pulse</span>
+    </div>
+    <div class="nav-links">
+      <span>최신호</span>
+      <span>지난 호</span>
+      <span>소개</span>
+    </div>
+  </nav>
+
+  <div class="masthead">
+    <div>
+      <p class="issue-meta">2026-10-12</p>
+      <h1 class="masthead-title">이번 주의<br>디자인.</h1>
+    </div>
+    <p class="masthead-sub">UX, 브랜딩, 타이포, 제품, 모션, 그래픽, AI 도구. 전 세계 디자인 현장에서 일어난 일들을 매주 월요일 아침에 정리해 보내드립니다.</p>
+  </div>
+
+  
+
+  <div class="cover-section">
+    <div class="cover-tag">커버 스토리 · AI 도구</div>
+    <h2 class="cover-headline">AI 시대, 디자이너의 헌법이 필요하다</h2>
+    <p class="cover-lead">15만 명의 크리에이터가 답했다—AI는 창작을 어떻게 바꾸고 있는가.</p>
+    <p class="cover-lead" style="font-size: 14px;">&#39;디자이너 헌법(The Designer&#39;s Constitution)&#39;은 AI 시대에 디자이너란 무엇인지를 재정의하려는 시도다. 같은 주에 공개된 Creative Intelligence Report는 15만 명 이상의 현업 크리에이터를 대상으로 AI가 창작 작업을 어떻게 변화시키고 있는지 조사했다. 도구가 똑똑해질수록, 우리가 &#39;디자이너&#39;라고 부르는 정체성은 재협상의 대상이 된다.</p>
+    <a class="cover-cta" href="https://constitution.design/" target="_blank" rel="noopener">전문 읽기 →</a>
+    <span class="cover-source">출처: Sidebar</span>
+  </div>
+
+  
+  <div class="weekly-summary">
+    <p class="weekly-summary-label">이번 주 한 단락</p>
+    <p>이번 주 디자인계는 AI와 인간 창작자의 관계를 본격적으로 질문하기 시작했다. &#39;디자이너 헌법&#39;과 15만 명 규모의 크리에이터 설문이 그 신호탄이다. 한편 재규어는 조롱을 딛고 새 전기차를 공개했고, 빅테크는 AI 에이전트를 귀여운 마스코트로 포장하는 전략을 본격화했다. 프라하에서는 Designblok이 &#39;빛&#39;을 주제로 28회째를 맞았고, 파리에서는 Art Week가 전 세계 시선을 끌어모았다.</p>
+  </div>
+  
+
+  <div class="dispatches-header">
+    <h2>디스패치</h2>
+    <span>6개 분야 · 각 분야 톱 1편</span>
+  </div>
+
+  <div class="dispatches">
+    
+    <div class="dispatch">
+      <a href="https://wattenberger.com/thoughts/ai-is-still-in-its-terminal-era/" target="_blank" rel="noopener">
+        
+        <div class="dispatch-img"></div>
+        
+        <p class="dispatch-cat">№ 01 · UX/UI</p>
+        <h3 class="dispatch-headline">채팅은 AI의 커맨드라인이다—더 나은 인터페이스가 필요하다</h3>
+        <p class="dispatch-summary">Amelia Wattenberger는 현재의 AI 인터페이스가 &#39;터미널 시대&#39;에 머물러 있다고 지적한다. AI는 단순히 &#39;더 유능한 대화 상대&#39;가 아니라, 우리를 더 유능하게 만드는 도구여야 한다는 주장이다.</p>
+        <p class="dispatch-source">Sidebar</p>
+      </a>
+    </div>
+    
+    <div class="dispatch">
+      <a href="https://www.itsnicethat.com/features/the-view-from-sao-paulo-retro-bar-and-restaurant-branding-graphic-design-140926" target="_blank" rel="noopener">
+        
+        <div class="dispatch-img"></div>
+        
+        <p class="dispatch-cat">№ 02 · 그래픽</p>
+        <h3 class="dispatch-headline">상파울루 바와 레스토랑에 복고풍 따스함을 입히는 브라질 스튜디오들</h3>
+        <p class="dispatch-summary">브라질 디자인 스튜디오들이 상파울루의 바와 레스토랑 브랜딩에 레트로 레퍼런스와 수작업 디테일을 적극 활용하고 있다. 거리에 유쾌함과 노스탤지어를 불어넣는 이들의 전략을 It&#39;s Nice That이 분석했다.</p>
+        <p class="dispatch-source">Sidebar</p>
+      </a>
+    </div>
+    
+    <div class="dispatch">
+      <a href="https://www.fastcompany.com/91620091/big-tech-is-cutewashing-its-ai-agents" target="_blank" rel="noopener">
+        
+        <div class="dispatch-img"><img src="https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-1-91620091-ai-mascots.jpg" alt="" loading="lazy"></div>
+        
+        <p class="dispatch-cat">№ 03 · 브랜딩</p>
+        <h3 class="dispatch-headline">빅테크, AI 에이전트를 귀여운 캐릭터로 포장하기 시작했다</h3>
+        <p class="dispatch-summary">SpaceXAI부터 주요 AI 기업들까지, 에이전트 기능을 소개하며 &#39;귀여운 마스코트&#39;라는 동일한 시각 언어로 수렴하고 있다. AI의 위압감을 친근함으로 희석하려는 &#39;cutewashing&#39; 전략이다.</p>
+        <p class="dispatch-source">Fast Company Design</p>
+      </a>
+    </div>
+    
+    <div class="dispatch">
+      <a href="https://www.designboom.com/design/stefan-sagmeister-ekn-global-data-colorful-sneakers-boots-frankfurt/" target="_blank" rel="noopener">
+        
+        <div class="dispatch-img"><img src="https://www.designboom.com/wp-content/uploads/2026/10/stefan-sagmeister-ekn-global-data-colorful-sneakers-boots-frankfurt-2-500x400-22b08q85r203.jpg" alt="" loading="lazy"></div>
+        
+        <p class="dispatch-cat">№ 04 · 타이포그래피</p>
+        <h3 class="dispatch-headline">스테판 사그마이스터, 글로벌 데이터를 컬러풀한 스니커즈로 번역하다</h3>
+        <p class="dispatch-summary">그래픽 디자인계의 거장 스테판 사그마이스터가 독일 신발 브랜드 EKN과 협업해 데이터 시각화를 스니커즈와 부츠 디자인으로 전환했다. 파리 전시를 앞두고 공개된 이 프로젝트는 정보를 착용 가능한 형태로 물질화한다.</p>
+        <p class="dispatch-source">Designboom</p>
+      </a>
+    </div>
+    
+    <div class="dispatch">
+      <a href="https://www.dezeen.com/2026/10/10/jaguar-type-01-electric-car-this-week/" target="_blank" rel="noopener">
+        
+        <div class="dispatch-img"><img src="http://static.dezeen.com/uploads/2026/10/jaguar-type-01-_dezeen_2364_sq-1-411x411.jpg" alt="" loading="lazy"></div>
+        
+        <p class="dispatch-cat">№ 05 · 제품</p>
+        <h3 class="dispatch-headline">재규어 Type 01 전기차 공개—조롱을 뚫고 &#39;새 시대&#39; 선언</h3>
+        <p class="dispatch-summary">2년 전 파스텔 컨셉카로 거센 조롱을 받았던 재규어가 마침내 양산형 Type 01 전기차를 뉴욕에서 공개했다. 브랜드의 &#39;새로운 시대를 여는 차&#39;로 포지셔닝되며, 반응은 기대 이상으로 호의적이다.</p>
+        <p class="dispatch-source">Dezeen</p>
+      </a>
+    </div>
+    
+    <div class="dispatch">
+      <a href="https://www.designboom.com/architecture/what-youll-see-in-3d-in-the-peter-zumthor-documentary-by-wim-wenders/" target="_blank" rel="noopener">
+        
+        <div class="dispatch-img"><img src="https://www.designboom.com/wp-content/uploads/2026/10/wenders-zumthor-designboom-700-500x400-22b08q85r124.jpg" alt="" loading="lazy"></div>
+        
+        <p class="dispatch-cat">№ 06 · 모션/3D</p>
+        <h3 class="dispatch-headline">빔 벤더스 감독, 페터 춤토르 다큐멘터리를 3D로 완성</h3>
+        <p class="dispatch-summary">영화감독 빔 벤더스가 14년에 걸쳐 프리츠커상 수상 건축가 페터 춤토르를 따라갔다. 예배당, 기념관, 문화 공간을 3D 영상으로 담은 이 다큐멘터리는 건축 공간의 경험적 깊이를 스크린에서 재현하려는 시도다.</p>
+        <p class="dispatch-source">Designboom</p>
+      </a>
+    </div>
+    
+  </div>
+
+  
+  <div class="calendar">
+    <div class="calendar-header">
+      <h2>이번 주 캘린더</h2>
+      <span style="font-size:12px;color:var(--text-3);">2개 이벤트</span>
+    </div>
+    
+    <div class="event">
+      <div style="text-align:center;">
+        <p class="event-date-num">06</p>
+        <p class="event-date-month">10월</p>
+      </div>
+      <div>
+        <p class="event-name">Designblok 2026</p>
+        <p class="event-loc">프라하</p>
+      </div>
+      <span class="event-kind">페스티벌</span>
+    </div>
+    
+    <div class="event">
+      <div style="text-align:center;">
+        <p class="event-date-num">12</p>
+        <p class="event-date-month">10월</p>
+      </div>
+      <div>
+        <p class="event-name">Paris Art Week / Design Miami &amp; Art Basel Paris</p>
+        <p class="event-loc">파리</p>
+      </div>
+      <span class="event-kind">박람회</span>
+    </div>
+    
+  </div>
+  
+
+  <footer>
+    <p>Pulse · 2026-10-12<br>Claude가 매주 정리합니다</p>
+    <p>← 지난 호 보기</p>
+  </footer>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+{
+  "issue_date": "2026-10-26",
+  "cover": {
+    "category": "브랜딩",
+    "headline": "애플 뮤직, 소리로 빚은 새 얼굴을 공개하다",
+    "lead": "음파가 만든 물결이 브랜드가 되는 순간.",
+    "summary": "애플 뮤직이 TBWA\\Media Arts Lab과 협업해 '소리'를 시각화한 새 브랜드 아이덴티티를 선보였다. 미네랄 오일 수조에 음파를 쏘아 만든 파문을 촬영해 워드마크와 비주얼 랭귀지를 완성했으며, 프로듀서 프레드 어게인이 참여한 소닉 로고까지 더해졌다. 디지털 시대에 '손으로 만든 로고'라는 역설이 브랜딩의 새 방향을 제시한다.",
+    "source_url": "https://www.fastcompany.com/91627164/for-the-new-apple-music-logo-designers-lean-into-the-science-of-sound?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+    "source_name": "Fast Company",
+    "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-91627164-new-apple-music-logo.jpg"
+  },
+  "dispatches": [
+    {
+      "category": "UX/UI",
+      "headline": "'빠름'은 디자인 결정이다",
+      "summary": "웹사이트 구축 비용은 그 어느 때보다 낮아졌지만, 속도를 확보하려면 여전히 디자이너의 주의와 사용자 리소스가 필요하다. 성능은 단순한 기술 지표가 아닌, UX의 핵심 설계 요소라는 점을 상기시키는 글.",
+      "source_url": "https://shannadige.com/blog/performance-is-design/",
+      "source_name": "Sidebar",
+      "image": null
+    },
+    {
+      "category": "그래픽",
+      "headline": "나이키, 레이스 메달을 주얼리로 재정의하다",
+      "summary": "나이키 '애프터 다크 투어'의 2026 시즌 메달은 목걸이, 팔찌, 키체인으로 변형해 착용할 수 있도록 설계됐다. 레이저 각인된 스우시와 체인 디테일이 스포츠 기념품을 일상 액세서리로 확장한다.",
+      "source_url": "https://www.fastcompany.com/91628222/nike-after-dark-race-medal-jewelry?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-91628222-nike-after-dark-race-medal.jpg"
+    },
+    {
+      "category": "타이포그래피",
+      "headline": "Dezeen, 10년 만에 웹사이트를 새로 열다",
+      "summary": "디자인 전문 매체 Dezeen이 크리에이티브 테크놀로지 스튜디오 Made by On과 협업해 웹사이트를 전면 개편했다. 기존 Micha Weidmann의 타이포그래피 기반 위에 더 풍부하고 유연한 시각 시스템을 얹었다.",
+      "source_url": "https://www.dezeen.com/2026/10/21/dezeen-launches-new-website-2026/",
+      "source_name": "Dezeen",
+      "image": "https://static-2026.dezeen.com/uploads/2026/10/Dezeen-website-homepage-laptop_dezeen_01_sq-1024x1024.jpg"
+    },
+    {
+      "category": "제품",
+      "headline": "Bose 유선 이어폰, 출시마다 매진 행진",
+      "summary": "블루투스 피로와 복고 감성이 맞물리며 Bose가 출시한 유선 노이즈캔슬링 이어폰이 연속 완판을 기록 중이다. 대학 캠퍼스에서 다시 늘어나는 유선 헤드폰 착용률이 제품 기획의 결정적 단서였다.",
+      "source_url": "https://www.fastcompany.com/91628663/bose-wired-headphones-noise-canceling-earbuds?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-91628663-Bose-Noise-Cancelling-Wired-Earbuds.jpg"
+    },
+    {
+      "category": "모션/3D",
+      "headline": "다프트 펑크 'Alive 투어' 무대, 레고로 부활하다",
+      "summary": "2007년 전설적인 피라미드 스테이지가 레고 빌딩 세트로 돌아온다. 내부 LED 조명까지 재현해 팬들이 직접 조립하며 그 시절 라이브의 감동을 되새길 수 있게 했다.",
+      "source_url": "https://www.designboom.com/design/daft-punk-lego-group-brick-version-alive-tour-stage/",
+      "source_name": "Designboom",
+      "image": "https://www.designboom.com/wp-content/uploads/2026/10/LEGO-group-daft-punk-designboom-700-500x400-22b08q85r470.jpg"
+    },
+    {
+      "category": "AI 도구",
+      "headline": "Toolcraft: AI 기반 커스텀 디자인 앱 스타터 키트",
+      "summary": "오픈소스로 공개된 Toolcraft는 AI를 활용해 맞춤형 디자인 도구를 빠르게 구축할 수 있는 스타터 키트이자 UI 라이브러리다. 디자이너가 직접 워크플로우에 맞는 앱을 만들 수 있는 가능성을 연다.",
+      "source_url": "https://toolcraft.sh/",
+      "source_name": "Sidebar",
+      "image": null
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-10-19",
+      "name": "Dutch Design Week 2026",
+      "location": "Eindhoven",
+      "kind": "페스티벌"
+    },
+    {
+      "date": "2026-10-23",
+      "name": "Design Miami.Paris 2026",
+      "location": "Paris",
+      "kind": "박람회"
+    }
+  ],
+  "weekly_summary": "이번 주 디자인계는 '소리를 시각화한' 애플 뮤직의 리브랜딩이 화제를 모았다. 물리적 매체에 대한 향수는 Bose 유선 이어폰 완판과 다프트 펑크 레고 세트 출시로도 이어졌다. 한편 Dezeen은 10년 만의 웹사이트 개편을 단행했고, 네덜란드 디자인 위크와 디자인 마이애미 파리에서는 순환 디자인부터 수집 가능한 가구까지 다양한 담론이 오갔다."
+}

@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pulse · 2026-10-26</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --bg-2: #f5f4f0;
+    --text: #1a1a1a;
+    --text-2: #5f5e5a;
+    --text-3: #888780;
+    --border: rgba(0,0,0,0.1);
+    --accent: #1a1a1a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1a1a1a;
+      --bg-2: #2c2c2a;
+      --text: #f5f4f0;
+      --text-2: #b4b2a9;
+      --text-3: #888780;
+      --border: rgba(255,255,255,0.12);
+      --accent: #f5f4f0;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Pretendard", "Apple SD Gothic Neo", sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .container { max-width: 880px; margin: 0 auto; padding: 24px; }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 0.5px solid var(--border);
+  }
+  .logo { display: flex; align-items: center; gap: 10px; font-weight: 500; }
+  .logo-mark {
+    width: 28px; height: 28px; background: var(--accent);
+    color: var(--bg); border-radius: 6px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 15px; font-weight: 500;
+  }
+  .nav-links { display: flex; gap: 24px; font-size: 13px; color: var(--text-2); }
+  .masthead {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    gap: 40px;
+    align-items: end;
+    padding: 48px 0 32px;
+    border-bottom: 0.5px solid var(--border);
+  }
+  .issue-meta {
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--text-2);
+    margin: 0 0 12px;
+  }
+  h1.masthead-title {
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 0.95;
+    letter-spacing: -0.035em;
+    margin: 0;
+  }
+  .masthead-sub {
+    font-size: 15px;
+    line-height: 1.7;
+    color: var(--text-2);
+    margin: 0;
+    max-width: 380px;
+    justify-self: end;
+  }
+  .hero-img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    margin: 32px 0 8px;
+    border-radius: 12px;
+    overflow: hidden;
+    background: var(--bg-2);
+  }
+  .hero-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .hero-caption {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    color: var(--text-3);
+    padding: 0 4px;
+    margin-bottom: 32px;
+  }
+  .cover-section {
+    padding: 24px 0 40px;
+    border-bottom: 0.5px solid var(--border);
+  }
+  .cover-tag {
+    display: flex; align-items: center; gap: 10px;
+    font-size: 11px; letter-spacing: 0.15em;
+    text-transform: uppercase; color: var(--text-2);
+    margin-bottom: 16px;
+  }
+  .cover-tag::before {
+    content: ""; display: inline-block;
+    width: 6px; height: 6px; border-radius: 50%; background: #378ADD;
+  }
+  h2.cover-headline {
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -0.025em;
+    margin: 0 0 16px;
+    max-width: 620px;
+  }
+  .cover-lead {
+    font-size: 17px;
+    line-height: 1.6;
+    color: var(--text-2);
+    margin: 0 0 24px;
+    max-width: 580px;
+  }
+  .cover-cta {
+    display: inline-block;
+    font-size: 13px;
+    padding: 8px 16px;
+    border-radius: 999px;
+    background: var(--accent);
+    color: var(--bg);
+    text-decoration: none;
+    margin-right: 12px;
+  }
+  .cover-source {
+    font-size: 12px;
+    color: var(--text-3);
+  }
+  .weekly-summary {
+    margin: 32px 0;
+    padding: 20px 24px;
+    background: var(--bg-2);
+    border-radius: 12px;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+  .weekly-summary p { margin: 0; }
+  .weekly-summary-label {
+    font-size: 11px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--text-3);
+    margin-bottom: 8px !important;
+  }
+  .dispatches-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 40px 0 24px;
+  }
+  .dispatches-header h2 {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0;
+    letter-spacing: -0.01em;
+  }
+  .dispatches-header span {
+    font-size: 12px;
+    color: var(--text-3);
+  }
+  .dispatches {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 24px;
+  }
+  .dispatch a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .dispatch-img {
+    aspect-ratio: 4/3;
+    background: var(--bg-2);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 14px;
+  }
+  .dispatch-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .dispatch-cat {
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--text-2);
+    margin: 0 0 6px;
+  }
+  .dispatch-headline {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.35;
+    letter-spacing: -0.005em;
+    margin: 0 0 8px;
+  }
+  .dispatch-summary {
+    font-size: 13px;
+    line-height: 1.65;
+    color: var(--text-2);
+    margin: 0 0 8px;
+  }
+  .dispatch-source {
+    font-size: 11px;
+    color: var(--text-3);
+  }
+  .calendar {
+    margin: 56px 0 32px;
+    padding: 28px;
+    background: var(--bg-2);
+    border-radius: 12px;
+  }
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 16px;
+  }
+  .calendar-header h2 { font-size: 22px; font-weight: 500; margin: 0; letter-spacing: -0.01em; }
+  .event {
+    display: grid;
+    grid-template-columns: 60px 1fr auto;
+    gap: 20px;
+    align-items: center;
+    padding: 14px 0;
+    border-top: 0.5px solid var(--border);
+  }
+  .event-date-num {
+    font-size: 24px; font-weight: 500; line-height: 1;
+    letter-spacing: -0.02em; margin: 0;
+  }
+  .event-date-month {
+    font-size: 10px; letter-spacing: 0.15em;
+    color: var(--text-3); margin: 2px 0 0;
+  }
+  .event-name { font-size: 14px; font-weight: 500; margin: 0; }
+  .event-loc { font-size: 12px; color: var(--text-2); margin: 2px 0 0; }
+  .event-kind {
+    font-size: 11px; letter-spacing: 0.1em;
+    color: var(--text-3);
+  }
+  footer {
+    margin-top: 56px;
+    padding-top: 24px;
+    border-top: 0.5px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: var(--text-3);
+  }
+  footer p { margin: 0; }
+  @media (max-width: 640px) {
+    .masthead { grid-template-columns: 1fr; gap: 16px; }
+    .masthead-sub { justify-self: start; }
+    h1.masthead-title { font-size: 40px; }
+    h2.cover-headline { font-size: 28px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <nav>
+    <div class="logo">
+      <span class="logo-mark">P</span>
+      <span>Pulse</span>
+    </div>
+    <div class="nav-links">
+      <span>최신호</span>
+      <span>지난 호</span>
+      <span>소개</span>
+    </div>
+  </nav>
+
+  <div class="masthead">
+    <div>
+      <p class="issue-meta">2026-10-26</p>
+      <h1 class="masthead-title">이번 주의<br>디자인.</h1>
+    </div>
+    <p class="masthead-sub">UX, 브랜딩, 타이포, 제품, 모션, 그래픽, AI 도구. 전 세계 디자인 현장에서 일어난 일들을 매주 월요일 아침에 정리해 보내드립니다.</p>
+  </div>
+
+  
+  <div class="hero-img">
+    <img src="https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-91627164-new-apple-music-logo.jpg" alt="" loading="lazy">
+  </div>
+  <div class="hero-caption">
+    <span>커버 스토리에서 자동으로 가져온 대표 이미지</span>
+    <span>출처: Fast Company</span>
+  </div>
+  
+
+  <div class="cover-section">
+    <div class="cover-tag">커버 스토리 · 브랜딩</div>
+    <h2 class="cover-headline">애플 뮤직, 소리로 빚은 새 얼굴을 공개하다</h2>
+    <p class="cover-lead">음파가 만든 물결이 브랜드가 되는 순간.</p>
+    <p class="cover-lead" style="font-size: 14px;">애플 뮤직이 TBWA\Media Arts Lab과 협업해 &#39;소리&#39;를 시각화한 새 브랜드 아이덴티티를 선보였다. 미네랄 오일 수조에 음파를 쏘아 만든 파문을 촬영해 워드마크와 비주얼 랭귀지를 완성했으며, 프로듀서 프레드 어게인이 참여한 소닉 로고까지 더해졌다. 디지털 시대에 &#39;손으로 만든 로고&#39;라는 역설이 브랜딩의 새 방향을 제시한다.</p>
+    <a class="cover-cta" href="https://www.fastcompany.com/91627164/for-the-new-apple-music-logo-designers-lean-into-the-science-of-sound?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss" target="_blank" rel="noopener">전문 읽기 →</a>
+    <span class="cover-source">출처: Fast Company</span>
+  </div>
+
+  
+  <div class="weekly-summary">
+    <p class="weekly-summary-label">이번 주 한 단락</p>
+    <p>이번 주 디자인계는 &#39;소리를 시각화한&#39; 애플 뮤직의 리브랜딩이 화제를 모았다. 물리적 매체에 대한 향수는 Bose 유선 이어폰 완판과 다프트 펑크 레고 세트 출시로도 이어졌다. 한편 Dezeen은 10년 만의 웹사이트 개편을 단행했고, 네덜란드 디자인 위크와 디자인 마이애미 파리에서는 순환 디자인부터 수집 가능한 가구까지 다양한 담론이 오갔다.</p>
+  </div>
+  
+
+  <div class="dispatches-header">
+    <h2>디스패치</h2>
+    <span>6개 분야 · 각 분야 톱 1편</span>
+  </div>
+
+  <div class="dispatches">
+    
+    <div class="dispatch">
+      <a href="https://shannadige.com/blog/performance-is-design/" target="_blank" rel="noopener">
+        
+        <div class="dispatch-img"></div>
+        
+        <p class="dispatch-cat">№ 01 · UX/UI</p>
+        <h3 class="dispatch-headline">&#39;빠름&#39;은 디자인 결정이다</h3>
+        <p class="dispatch-summary">웹사이트 구축 비용은 그 어느 때보다 낮아졌지만, 속도를 확보하려면 여전히 디자이너의 주의와 사용자 리소스가 필요하다. 성능은 단순한 기술 지표가 아닌, UX의 핵심 설계 요소라는 점을 상기시키는 글.</p>
+        <p class="dispatch-source">Sidebar</p>
+      </a>
+    </div>
+    
+    <div class="dispatch">
+      <a href="https://www.fastcompany.com/91628222/nike-after-dark-race-medal-jewelry?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss" target="_blank" rel="noopener">
+        
+        <div class="dispatch-img"><img src="https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-91628222-nike-after-dark-race-medal.jpg" alt="" loading="lazy"></div>
+        
+        <p class="dispatch-cat">№ 02 · 그래픽</p>
+        <h3 class="dispatch-headline">나이키, 레이스 메달을 주얼리로 재정의하다</h3>
+        <p class="dispatch-summary">나이키 &#39;애프터 다크 투어&#39;의 2026 시즌 메달은 목걸이, 팔찌, 키체인으로 변형해 착용할 수 있도록 설계됐다. 레이저 각인된 스우시와 체인 디테일이 스포츠 기념품을 일상 액세서리로 확장한다.</p>
+        <p class="dispatch-source">Fast Company</p>
+      </a>
+    </div>
+    
+    <div class="dispatch">
+      <a href="https://www.dezeen.com/2026/10/21/dezeen-launches-new-website-2026/" target="_blank" rel="noopener">
+        
+        <div class="dispatch-img"><img src="https://static-2026.dezeen.com/uploads/2026/10/Dezeen-website-homepage-laptop_dezeen_01_sq-1024x1024.jpg" alt="" loading="lazy"></div>
+        
+        <p class="dispatch-cat">№ 03 · 타이포그래피</p>
+        <h3 class="dispatch-headline">Dezeen, 10년 만에 웹사이트를 새로 열다</h3>
+        <p class="dispatch-summary">디자인 전문 매체 Dezeen이 크리에이티브 테크놀로지 스튜디오 Made by On과 협업해 웹사이트를 전면 개편했다. 기존 Micha Weidmann의 타이포그래피 기반 위에 더 풍부하고 유연한 시각 시스템을 얹었다.</p>
+        <p class="dispatch-source">Dezeen</p>
+      </a>
+    </div>
+    
+    <div class="dispatch">
+      <a href="https://www.fastcompany.com/91628663/bose-wired-headphones-noise-canceling-earbuds?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss" target="_blank" rel="noopener">
+        
+        <div class="dispatch-img"><img src="https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-91628663-Bose-Noise-Cancelling-Wired-Earbuds.jpg" alt="" loading="lazy"></div>
+        
+        <p class="dispatch-cat">№ 04 · 제품</p>
+        <h3 class="dispatch-headline">Bose 유선 이어폰, 출시마다 매진 행진</h3>
+        <p class="dispatch-summary">블루투스 피로와 복고 감성이 맞물리며 Bose가 출시한 유선 노이즈캔슬링 이어폰이 연속 완판을 기록 중이다. 대학 캠퍼스에서 다시 늘어나는 유선 헤드폰 착용률이 제품 기획의 결정적 단서였다.</p>
+        <p class="dispatch-source">Fast Company</p>
+      </a>
+    </div>
+    
+    <div class="dispatch">
+      <a href="https://www.designboom.com/design/daft-punk-lego-group-brick-version-alive-tour-stage/" target="_blank" rel="noopener">
+        
+        <div class="dispatch-img"><img src="https://www.designboom.com/wp-content/uploads/2026/10/LEGO-group-daft-punk-designboom-700-500x400-22b08q85r470.jpg" alt="" loading="lazy"></div>
+        
+        <p class="dispatch-cat">№ 05 · 모션/3D</p>
+        <h3 class="dispatch-headline">다프트 펑크 &#39;Alive 투어&#39; 무대, 레고로 부활하다</h3>
+        <p class="dispatch-summary">2007년 전설적인 피라미드 스테이지가 레고 빌딩 세트로 돌아온다. 내부 LED 조명까지 재현해 팬들이 직접 조립하며 그 시절 라이브의 감동을 되새길 수 있게 했다.</p>
+        <p class="dispatch-source">Designboom</p>
+      </a>
+    </div>
+    
+    <div class="dispatch">
+      <a href="https://toolcraft.sh/" target="_blank" rel="noopener">
+        
+        <div class="dispatch-img"></div>
+        
+        <p class="dispatch-cat">№ 06 · AI 도구</p>
+        <h3 class="dispatch-headline">Toolcraft: AI 기반 커스텀 디자인 앱 스타터 키트</h3>
+        <p class="dispatch-summary">오픈소스로 공개된 Toolcraft는 AI를 활용해 맞춤형 디자인 도구를 빠르게 구축할 수 있는 스타터 키트이자 UI 라이브러리다. 디자이너가 직접 워크플로우에 맞는 앱을 만들 수 있는 가능성을 연다.</p>
+        <p class="dispatch-source">Sidebar</p>
+      </a>
+    </div>
+    
+  </div>
+
+  
+  <div class="calendar">
+    <div class="calendar-header">
+      <h2>이번 주 캘린더</h2>
+      <span style="font-size:12px;color:var(--text-3);">2개 이벤트</span>
+    </div>
+    
+    <div class="event">
+      <div style="text-align:center;">
+        <p class="event-date-num">19</p>
+        <p class="event-date-month">10월</p>
+      </div>
+      <div>
+        <p class="event-name">Dutch Design Week 2026</p>
+        <p class="event-loc">Eindhoven</p>
+      </div>
+      <span class="event-kind">페스티벌</span>
+    </div>
+    
+    <div class="event">
+      <div style="text-align:center;">
+        <p class="event-date-num">23</p>
+        <p class="event-date-month">10월</p>
+      </div>
+      <div>
+        <p class="event-name">Design Miami.Paris 2026</p>
+        <p class="event-loc">Paris</p>
+      </div>
+      <span class="event-kind">박람회</span>
+    </div>
+    
+  </div>
+  
+
+  <footer>
+    <p>Pulse · 2026-10-26<br>Claude가 매주 정리합니다</p>
+    <p>← 지난 호 보기</p>
+  </footer>
+
+</div>
+</body>
+</html>

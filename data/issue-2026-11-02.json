@@ -1,0 +1,71 @@
+{
+  "issue_date": "2026-11-02",
+  "cover": {
+    "category": "AI 도구",
+    "headline": "애플, 최초의 터치스크린 맥북 공개. '세계 최고의 노트북 디스플레이'라 자신했다",
+    "lead": "12년간 거부해온 터치스크린, 애플이 마침내 문을 열었다.",
+    "summary": "애플이 신형 맥북 프로를 발표하며 처음으로 노트북에 터치스크린을 탑재했다. 회사는 이를 '기념비적 도약'이자 '세계 최고의 노트북 디스플레이'라 소개했다. 오랫동안 터치 인터페이스에 회의적이던 애플의 방향 전환이 맥 생태계 전반에 어떤 변화를 가져올지 주목된다.",
+    "source_url": "https://www.dezeen.com/2026/10/30/macbook-pro-touchscreen-apple/",
+    "source_name": "Dezeen",
+    "image": "https://static-2026.dezeen.com/uploads/2026/10/macbook-pro-touchscreen-apple-sq_dezeen_2364_col_2-1024x1024.jpg"
+  },
+  "dispatches": [
+    {
+      "category": "UX/UI",
+      "headline": "셀렉트 박스는 정보를 담아야 한다. 예쁜 드롭다운 그 이상의 가능성",
+      "summary": "커스터마이저블 셀렉트가 단순한 드롭다운 리디자인이 아님을 보여주는 글. 다섯 가지 비포/애프터 데모를 통해 옵션 자체가 사용자의 의사결정에 필요한 정보를 전달할 수 있음을 입증한다.",
+      "source_url": "https://alfy.blog/2026/10/27/a-select-should-tell-you-something.html",
+      "source_name": "Sidebar",
+      "image": null
+    },
+    {
+      "category": "그래픽",
+      "headline": "뉴욕타임스 175주년 기념 아이덴티티 공개. 에디토리얼부터 광고까지 관통하는 시스템",
+      "summary": "뉴욕타임스가 창간 175주년을 맞아 커스텀 '175' 마크와 아이덴티티 시스템을 선보였다. 편집, 오피니언, 광고, 이벤트, 마케팅 전반에 걸쳐 적용되는 통합 브랜드 언어다.",
+      "source_url": "https://the-brandidentity.com/project/the-new-york-times-turns-175-with-an-identity-events-and-a-campaign",
+      "source_name": "The Brand Identity",
+      "image": null
+    },
+    {
+      "category": "브랜딩",
+      "headline": "프라다, 핸드메이드 애니메이션 광고로 AI 시대에 역주행. SNS 호평 쏟아져",
+      "summary": "AI 생성 콘텐츠가 범람하는 시대, 프라다가 손으로 그린 애니메이션 홀리데이 캠페인 'Drawing Prada'로 화제다. 공정과 장인정신을 전면에 내세운 전략이 소비자들에게 신선하게 받아들여지고 있다.",
+      "source_url": "https://www.fastcompany.com/91632291/prada-ad-luxury-brands-all-in-on-handmade-ads?partner=rss&utm_source=rss&utm_medium=feed&utm_campaign=rss+fastcompany&utm_content=rss",
+      "source_name": "Fast Company",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/10/p-91632291-handmade-crafted-ads.jpg"
+    },
+    {
+      "category": "타이포그래피",
+      "headline": "프린스턴대, 소련·동유럽 포스터 아카이브 디지털 공개. 당대 타이포그래피의 보고",
+      "summary": "프린스턴대학교가 소련과 동유럽 시대의 포스터 컬렉션을 디지털화해 공개했다. 공연·영화 광고부터 당 캠페인까지, 당대 시각언어와 레터링의 흐름을 한눈에 볼 수 있는 자료다.",
+      "source_url": "https://digital-collections.princeton.edu/collections/soviet_posters",
+      "source_name": "Princeton Digital Collections",
+      "image": null
+    },
+    {
+      "category": "제품",
+      "headline": "헤르조그 앤 드 뫼롱, 임스 연구소 캠퍼스 설계안 공개. 60년대 창고 위에 다리로 연결된 갤러리",
+      "summary": "임스 인스티튜트 오브 인피니트 큐리오시티의 마스터플랜이 공개됐다. 헤르조그 앤 드 뫼롱이 1960년대 창고를 개조해 브리지로 연결하고, 필드 오퍼레이션스가 조경을 맡았다. 찰스와 레이 임스의 유산을 담을 새로운 그릇이다.",
+      "source_url": "https://www.dezeen.com/2026/10/29/herzog-de-meuron-field-operations-ehdd-eames-institute-infinite-curiosity/",
+      "source_name": "Dezeen",
+      "image": "https://static-2026.dezeen.com/uploads/2026/10/eames-institute-of-infinite-curiosity-california-herzog-de-meuron-ehdd-field-operations_dezeen_2364_sq-1-1024x1024.jpg"
+    },
+    {
+      "category": "모션/3D",
+      "headline": "AI 게임 속 나방과 늑대, 기후위기 이후의 세계를 살아간다",
+      "summary": "앨리스 버크넬의 비디오게임 'The Alluvials'는 불타는 숲과 모래에 뒤덮인 LA를 배경으로 비인간 시점에서 가까운 미래의 기후 현실을 탐험한다. 게임이라는 매체로 사변적 미래를 체험하게 하는 실험작이다.",
+      "source_url": "https://www.designboom.com/art/in-this-video-game-moths-and-wolves-play-out-a-nearby-climate-future/",
+      "source_name": "Designboom",
+      "image": "https://www.designboom.com/wp-content/uploads/2026/10/bucknell-alluvials-designboom-700-500x400-22b08q85r287.jpg"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-11-01",
+      "name": "Dubai Design Week 2026",
+      "location": "Dubai",
+      "kind": "페스티벌"
+    }
+  ],
+  "weekly_summary": "애플이 12년간의 고집을 꺾고 터치스크린 맥북을 출시하며 업계의 이목을 집중시켰다. 한편 프라다는 AI 범람 시대에 핸드메이드 애니메이션 광고로 역주행하며 장인정신의 가치를 환기했다. 헤르조그 앤 드 뫼롱의 임스 연구소 캠퍼스 설계안과 뉴욕타임스의 175주년 아이덴티티 시스템이 공개되었고, 두바이 디자인 위크가 12회를 맞아 중동 디자인 신의 활력을 알렸다."
+}

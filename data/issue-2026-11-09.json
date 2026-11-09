@@ -1,0 +1,83 @@
+{
+  "issue_date": "2026-11-09",
+  "cover": {
+    "category": "AI 도구",
+    "headline": "AI가 디자인을 잘하게 될수록, 디자이너는 뭘 해야 하는가",
+    "lead": "자동화가 잠식하는 영역에서 인간 디자이너의 존재 이유를 다시 묻는다.",
+    "summary": "AI의 디자인 능력이 빠르게 향상되면서, 디자이너의 역할에 대한 근본적 질문이 제기되고 있다. 기계가 대체할 수 없는 영역—맥락 이해, 윤리적 판단, 인간 중심의 의사결정—에 집중해야 한다는 주장이다. '그렇지 않으면 당신도 그냥 기계일 뿐'이라는 도발적 메시지가 업계에 파장을 일으키고 있다.",
+    "source_url": "https://uxdesign.cc/otherwise-youre-just-a-machine-a9d3b21179b5",
+    "source_name": "UX Collective",
+    "image": null
+  },
+  "dispatches": [
+    {
+      "category": "UX/UI",
+      "headline": "디자인 시스템의 'AI 대응력', 대체 무슨 의미인가",
+      "summary": "AI 시대 디자인 시스템의 준비 상태를 논하는 글이 화제다. 기계가 읽을 수 있는 토큰 구조보다 중요한 건 인간이 개입할 지점을 명확히 정의하는 것이라는 분석이다. 자동화와 통제 사이의 균형점을 찾는 논의가 본격화되고 있다.",
+      "source_url": "https://seanvoisen.com/writing/design-system-ai-readiness/",
+      "source_name": "Sean Voisen",
+      "image": null
+    },
+    {
+      "category": "그래픽",
+      "headline": "뉴욕 브롱스에 미국 최고층 벽화가 들어섰다",
+      "summary": "도미니카 출신 아티스트 앙구리아가 29층 높이의 공공주택 외벽을 캔버스로 삼았다. 타이노 원주민 문화에서 영감받은 색채와 상징이 스카이라인을 채운다. 공공 미술이 지역 정체성을 어떻게 시각화하는지 보여주는 사례다.",
+      "source_url": "https://www.fastcompany.com/91636489/how-the-countrys-tallest-mural-was-painted-onto-the-side-of-this-nyc-building",
+      "source_name": "Fast Company",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/07-91636489-bronx-nycha-art-mural.jpg"
+    },
+    {
+      "category": "브랜딩",
+      "headline": "누뱅크, 복잡함에 맞서는 브랜드 시스템으로 재정비",
+      "summary": "브라질 핀테크 거인 누뱅크가 코토(Koto)와 손잡고 브랜드 리디자인을 단행했다. 금융의 복잡함을 걷어내고 사용자 권한을 강화하는 방향으로 시각 시스템을 재구축했다. '언제나 Nu답게'라는 원칙 아래 디지털 기반을 새로 다졌다.",
+      "source_url": "https://koto.com/projects/nubank",
+      "source_name": "Koto",
+      "image": null
+    },
+    {
+      "category": "타이포그래피",
+      "headline": "LLM 토큰을 실시간으로 시각화하는 모노스페이스 폰트",
+      "summary": "개발자 조지 만디스가 만든 'Tokenizer Mono'가 주목받고 있다. OpenType 대체 규칙과 컬러 테이블만으로 AI 토큰화 과정을 타이핑하는 순간 보여준다. 자바스크립트 없이 구현한 기술적 실험이 타이포그래피와 AI의 접점을 탐색한다.",
+      "source_url": "https://george.mand.is/2026/11/the-tokenizer-font/",
+      "source_name": "George Mandis",
+      "image": null
+    },
+    {
+      "category": "제품",
+      "headline": "테슬라 사이버트럭, 출시 2년 반 만에 단종 수순",
+      "summary": "일론 머스크가 사이버트럭 생산 축소를 발표했다. 기가 텍사스 공장에서만 생산되던 이 다각형 픽업트럭은 화성 탐사차 콘셉트로 출발했지만, 시장 반응은 기대에 못 미쳤다. 파격적 디자인이 대중화에 실패한 사례로 기록될 전망이다.",
+      "source_url": "https://www.dezeen.com/2026/11/06/tesla-cybertruck-production-discontinuation/",
+      "source_name": "Dezeen",
+      "image": "https://static-2026.dezeen.com/uploads/2026/11/tesla-cybertruck-elon-musk_dezeen_2364_sq-1-1024x1024.jpg"
+    },
+    {
+      "category": "모션/3D",
+      "headline": "HBO 드라마 'War', 권투에서 영감받은 키네틱 타이틀 시퀀스",
+      "summary": "이매지너리 포시스가 HBO 법정 드라마 'War'의 오프닝을 제작했다. 고액 이혼 소송의 긴장감을 충돌하는 색채와 역동적 움직임으로 번역했다. 추상적 모션 그래픽이 서사적 갈등을 어떻게 압축하는지 보여주는 수작이다.",
+      "source_url": "https://www.fastcompany.com/91635051/war-hbo-title-sequence",
+      "source_name": "Fast Company",
+      "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/11/p-1-91635051-hbo-war-titles.jpg"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-11-05",
+      "name": "Design Doha Biennial 2026",
+      "location": "도하",
+      "kind": "비엔날레"
+    },
+    {
+      "date": "2026-11-05",
+      "name": "Designart Tokyo 2026",
+      "location": "도쿄",
+      "kind": "페스티벌"
+    },
+    {
+      "date": "2026-11-05",
+      "name": "Ukrainian Design and Innovation Week",
+      "location": "키이우",
+      "kind": "컨퍼런스"
+    }
+  ],
+  "weekly_summary": "AI와 디자이너의 공존 방식을 묻는 논의가 이번 주를 관통했다. 테슬라 사이버트럭의 사실상 단종 발표는 급진적 제품 디자인의 한계를 다시 생각하게 했고, 도하와 도쿄에서는 전통 공예와 미래 기술의 접점을 탐색하는 비엔날레와 페스티벌이 동시에 막을 올렸다. 한편 뉴뱅크의 브랜드 재정비와 뉴욕 브롱스의 초대형 벽화는 디자인이 정체성과 공공성을 어떻게 구현하는지 보여주는 대조적 사례로 주목받았다."
+}
